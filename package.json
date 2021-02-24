@@ -1,0 +1,26 @@
+{
+  "name": "vesper-metadata",
+  "version": "2.0.0",
+  "description": "Vesper metadata",
+  "keywords": [
+    "addresses",
+    "contracts",
+    "defi",
+    "erc-20",
+    "eth",
+    "list",
+    "metadata",
+    "pools",
+    "tokens",
+    "vesper",
+    "vsp"
+  ],
+  "homepage": "https://vesper.finance",
+  "license": "MIT",
+  "author": "Gabriel Montes <gabriel@bloq.com>",
+  "files": [
+    "src/vesper-metadata.json"
+  ],
+  "main": "src/vesper-metadata.json",
+  "repository": "vesperfi/metadata"
+}

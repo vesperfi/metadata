@@ -1,0 +1,134 @@
+{
+  "name": "Vesper metadata",
+  "version": "2.0.0",
+  "controllers": [
+    {
+      "name": "collateralManager",
+      "address": "0x8d0b8e2b5584cE1487317f81Da7d97397eF3e899",
+      "chainId": 1
+    },{
+      "name": "controller",
+      "address": "0xa4F1671d3Aee73C05b552d57f2d16d3cfcBd0217",
+      "chainId": 1
+    }
+  ],
+  "pools": [
+    {
+      "name": "vVSP",
+      "address": "0xbA4cFE5741b357FA371b506e5db0774aBFeCf8Fc",
+      "asset": "VSP",
+      "birthblock": 11868095,
+      "chainId": 1,
+      "color": "#4138AC",
+      "riskLevel": 3,
+      "stage": "prod"
+    },
+    {
+      "name": "vBetaWBTC",
+      "address": "0x74Cc5BC20B0c396dF5680eE4aeB6169A6288a8aF",
+      "asset": "WBTC",
+      "birthblock": 11616578,
+      "chainId": 1,
+      "riskLevel": 3,
+      "stage": "beta"
+    },
+    {
+      "name": "vBetaUSDC",
+      "address": "0x1e86044468b92c310800d4b350e0f83387a7097f",
+      "asset": "USDC",
+      "birthblock": 11607534,
+      "chainId": 1,
+      "riskLevel": 3,
+      "stage": "beta"
+    },
+    {
+      "name": "vDAI",
+      "address": "0xcA0c34A3F35520B9490C1d58b35A19AB64014D80",
+      "asset": "DAI",
+      "birthblock": 11594191,
+      "chainId": 1,
+      "riskLevel": 3,
+      "stage": "prod"
+    },
+    {
+      "name": "vBetaETH",
+      "address": "0x2C361913e2dA663e1898162Ec01497C46eb87AbF",
+      "asset": "WETH",
+      "birthblock": 11543581,
+      "chainId": 1,
+      "riskLevel": 3,
+      "stage": "beta"
+    },  
+    {
+      "name": "vUSDC",
+      "address": "0x0C49066C0808Ee8c673553B7cbd99BCC9ABf113d",
+      "asset": "USDC",
+      "birthblock": 11475256,
+      "chainId": 1,
+      "riskLevel": 3,
+      "stage": "prod"
+    },
+    {
+      "name": "vWBTC",
+      "address": "0x4B2e76EbBc9f2923d83F5FBDe695D8733db1a17B",
+      "asset": "WBTC",
+      "birthblock": 11475198,
+      "chainId": 1,
+      "riskLevel": 3,
+      "stage": "prod"
+    },
+    {
+      "name": "vETH",
+      "address": "0x103cc17C2B1586e5Cd9BaD308690bCd0BBe54D5e",
+      "asset": "ETH",
+      "birthblock": 11475126,
+      "chainId": 1,
+      "riskLevel": 3,
+      "stage": "prod"
+    },
+    {
+      "name": "vWBTC",
+      "address": "0xCc9bE1B4Ae3C9D20E8DFe6cc041e196150AC0605",
+      "asset": "WBTC",
+      "birthblock": 11453513,
+      "chainId": 1,
+      "riskLevel": 3,
+      "stage": "retired"
+    },
+    {
+      "name": "vUSDC",
+      "address": "0x4a4A54e2F8bCAFDbE426f4c45Ec9F9E64f411101",
+      "asset": "USDC",
+      "birthblock": 11408043,
+      "chainId": 1,
+      "riskLevel": 3,
+      "stage": "retired"
+    },
+    {
+      "name": "vBTC",
+      "address": "0xd773cA264b5363F25F7f96319076753849Af168B",
+      "asset": "WBTC",
+      "birthblock": 11408018,
+      "chainId": 1,
+      "riskLevel": 3,
+      "stage": "retired"
+    },
+    {
+      "name": "vETH",
+      "address": "0xE4E3dA7D4Ed8d936F3224f0FFd7E29dDe3F39A29",
+      "asset": "ETH",
+      "birthblock": 11407993,
+      "chainId": 1,
+      "riskLevel": 3,
+      "stage": "retired"
+    }
+  ],
+  "tokens": [
+    {
+      "symbol": "VSP",
+      "address": "0x1b40183EFB4Dd766f11bDa7A7c3AD8982e998421",
+      "decimals": 18,
+      "chainId": 1
+    }
+  ]
+}
