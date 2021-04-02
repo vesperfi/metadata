@@ -14,6 +14,15 @@
   ],
   "pools": [
     {
+      "name": "vLINK",
+      "address": "0x0a27E910Aee974D05000e05eab8a4b8Ebd93D40C",
+      "asset": "LINK",
+      "birthblock": 12144811,
+      "chainId": 1,
+      "riskLevel": 3,
+      "stage": "beta"
+    },
+    {
       "name": "vVSP",
       "address": "0xbA4cFE5741b357FA371b506e5db0774aBFeCf8Fc",
       "asset": "VSP",
