@@ -102,6 +102,7 @@
       "birthblock": 11453513,
       "chainId": 1,
       "riskLevel": 3,
+      "supersededBy": "0x4B2e76EbBc9f2923d83F5FBDe695D8733db1a17B",
       "stage": "retired"
     },
     {
@@ -111,6 +112,7 @@
       "birthblock": 11408043,
       "chainId": 1,
       "riskLevel": 3,
+      "supersededBy": "0x0C49066C0808Ee8c673553B7cbd99BCC9ABf113d",
       "stage": "retired"
     },
     {
@@ -129,6 +131,7 @@
       "birthblock": 11407993,
       "chainId": 1,
       "riskLevel": 3,
+      "supersededBy": "0x103cc17C2B1586e5Cd9BaD308690bCd0BBe54D5e",
       "stage": "retired"
     }
   ],
