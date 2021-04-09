@@ -14,6 +14,15 @@
   ],
   "pools": [
     {
+      "name": "vUSDC-v2.1",
+      "address": "0xB1C0d6EFD3bAb0FC3CA648a12C15d0827e3bcde5",
+      "asset": "USDC",
+      "birthblock": 12201459,
+      "chainId": 1,
+      "riskLevel": 3,
+      "stage": "beta"
+    },
+    {
       "name": "vLINK",
       "address": "0x0a27E910Aee974D05000e05eab8a4b8Ebd93D40C",
       "asset": "LINK",
@@ -75,6 +84,7 @@
       "birthblock": 11475256,
       "chainId": 1,
       "riskLevel": 3,
+      "supersededBy": "0xB1C0d6EFD3bAb0FC3CA648a12C15d0827e3bcde5",
       "stage": "prod"
     },
     {
