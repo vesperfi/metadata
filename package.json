@@ -22,5 +22,8 @@
     "src/vesper-metadata.json"
   ],
   "main": "src/vesper-metadata.json",
-  "repository": "vesperfi/metadata"
+  "repository": "vesperfi/metadata",
+  "scripts": {
+    "version": "node scripts/sync-version.js && git add ${npm_package_main}"
+  }
 }
