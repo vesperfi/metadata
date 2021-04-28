@@ -21,7 +21,7 @@
       "birthblock": 12201459,
       "chainId": 1,
       "riskLevel": 3,
-      "stage": "beta"
+      "stage": "alpha"
     },
     {
       "name": "vLINK",
