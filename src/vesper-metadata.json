@@ -30,7 +30,7 @@
       "birthblock": 12144811,
       "chainId": 1,
       "riskLevel": 3,
-      "stage": "beta"
+      "stage": "prod"
     },
     {
       "name": "vVSP",
