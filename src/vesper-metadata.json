@@ -15,7 +15,17 @@
   ],
   "pools": [
     {
-      "name": "vUSDC-v2.1",
+      "name": "vUSDC-v3",
+      "address": "0x777A7850251b7A301cfA1E7b1d8a9c4a9C49Cf85",
+      "asset": "USDC",
+      "birthblock": 12479096,
+      "chainId": 1,
+      "riskLevel": 3,
+      "stage": "beta",
+      "version": 3
+    },
+    {
+      "name": "vUSDC-v2",
       "address": "0xB1C0d6EFD3bAb0FC3CA648a12C15d0827e3bcde5",
       "asset": "USDC",
       "birthblock": 12201459,
