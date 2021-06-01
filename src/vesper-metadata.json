@@ -95,6 +95,7 @@
       "birthblock": 11475256,
       "chainId": 1,
       "riskLevel": 3,
+      "supersededBy": "0x777A7850251b7A301cfA1E7b1d8a9c4a9C49Cf85",
       "stage": "prod"
     },
     {
