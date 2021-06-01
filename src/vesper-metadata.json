@@ -15,6 +15,26 @@
   ],
   "pools": [
     {
+      "name": "vUSDT",
+      "address": "0x95c0b30C6276e67Ae95127aF458573a63113BdFF",
+      "asset": "USDT",
+      "birthblock": 12525156,
+      "chainId": 1,
+      "riskLevel": 3,
+      "stage": "alpha",
+      "version": 3
+    },
+    {
+      "name": "vUNI",
+      "address": "0xf858a354AD255D21e17C56f8F2b10Ed67dfb40aE",
+      "asset": "UNI",
+      "birthblock": 12520468,
+      "chainId": 1,
+      "riskLevel": 3,
+      "stage": "alpha",
+      "version": 3
+    },
+    {
       "name": "vUSDC-v3",
       "address": "0x777A7850251b7A301cfA1E7b1d8a9c4a9C49Cf85",
       "asset": "USDC",
