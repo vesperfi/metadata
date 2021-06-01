@@ -63,7 +63,7 @@
     },
     {
       "name": "vBetaUSDC",
-      "address": "0x1e86044468b92c310800d4b350e0f83387a7097f",
+      "address": "0x1e86044468b92c310800d4B350E0F83387a7097F",
       "asset": "USDC",
       "birthblock": 11607534,
       "chainId": 1,
