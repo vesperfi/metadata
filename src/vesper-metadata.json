@@ -183,5 +183,12 @@
       "decimals": 18,
       "chainId": 1
     }
+  ],
+  "support": [
+    {
+      "name": "MiniArmyKnife",
+      "address": "0x5d72A9f081990219C97aF877e0e79EADaEaFCa80",
+      "chainId": 1
+    }
   ]
 }
