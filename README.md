@@ -2,7 +2,7 @@
 
 This module contains deployment addresses and relevant information about all the [Vesper](https://vesper.finance) pool contracts and the [ERC-20](https://eips.ethereum.org/EIPS/eip-20) [Vesper token (VSP)](https://etherscan.io/token/0x1b40183EFB4Dd766f11bDa7A7c3AD8982e998421).
 
-Information in this repo is based on the [contracts list at the `vesperfi/doc` repo](https://github.com/vesperfi/doc/blob/main/v2/contracts.json).
+Information in this repo is based on the [contracts list at the `vesperfi/doc` repo](https://github.com/vesperfi/vesper-pools/blob/master/deploy/2.0.7/contracts.json).
 
 ## Installation
 

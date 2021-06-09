@@ -22,7 +22,10 @@
       "chainId": 1,
       "riskLevel": 3,
       "stage": "alpha",
-      "version": 3
+      "version": 3,
+      "symbol": "vUSDT",
+      "decimals": 18,
+      "logoURI": "https://raw.github.com/vesperfi/metadata/master/src/logos/vusdt.svg"
     },
     {
       "name": "vUNI",
@@ -32,7 +35,10 @@
       "chainId": 1,
       "riskLevel": 3,
       "stage": "alpha",
-      "version": 3
+      "version": 3,
+      "symbol": "vUNI",
+      "decimals": 18,
+      "logoURI": "https://raw.github.com/vesperfi/metadata/master/src/logos/vuni.svg"
     },
     {
       "name": "vUSDC-v3",
@@ -42,7 +48,10 @@
       "chainId": 1,
       "riskLevel": 3,
       "stage": "beta",
-      "version": 3
+      "version": 3,
+      "symbol": "vUSDC-v3",
+      "decimals": 18,
+      "logoURI": "https://raw.github.com/vesperfi/metadata/master/src/logos/vusdc.svg"
     },
     {
       "name": "vUSDC-v2",
@@ -51,7 +60,10 @@
       "birthblock": 12201459,
       "chainId": 1,
       "riskLevel": 3,
-      "stage": "alpha"
+      "stage": "alpha",
+      "symbol": "vUSDC-v2",
+      "decimals": 18,
+      "logoURI": "https://raw.github.com/vesperfi/metadata/master/src/logos/vusdc.svg"
     },
     {
       "name": "vLINK",
@@ -60,7 +72,10 @@
       "birthblock": 12144811,
       "chainId": 1,
       "riskLevel": 3,
-      "stage": "prod"
+      "stage": "prod",
+      "symbol": "vLINK",
+      "decimals": 18,
+      "logoURI": "https://raw.github.com/vesperfi/metadata/master/src/logos/vlink.svg"
     },
     {
       "name": "vVSP",
@@ -70,7 +85,10 @@
       "chainId": 1,
       "color": "#4138AC",
       "riskLevel": 3,
-      "stage": "prod"
+      "stage": "prod",
+      "symbol": "vVSP",
+      "decimals": 18,
+      "logoURI": "https://raw.github.com/vesperfi/metadata/master/src/logos/vvsp.svg"
     },
     {
       "name": "vBetaWBTC",
@@ -79,7 +97,10 @@
       "birthblock": 11616578,
       "chainId": 1,
       "riskLevel": 3,
-      "stage": "beta"
+      "stage": "beta",
+      "symbol": "vBetaWBTC",
+      "decimals": 18,
+      "logoURI": "https://raw.github.com/vesperfi/metadata/master/src/logos/vwbtc.svg"
     },
     {
       "name": "vBetaUSDC",
@@ -88,7 +109,10 @@
       "birthblock": 11607534,
       "chainId": 1,
       "riskLevel": 3,
-      "stage": "beta"
+      "stage": "beta",
+      "symbol": "vBetaUSDC",
+      "decimals": 18,
+      "logoURI": "https://raw.github.com/vesperfi/metadata/master/src/logos/vusdc.svg"
     },
     {
       "name": "vDAI",
@@ -97,7 +121,10 @@
       "birthblock": 11594191,
       "chainId": 1,
       "riskLevel": 3,
-      "stage": "prod"
+      "stage": "prod",
+      "symbol": "vDAI",
+      "decimals": 18,
+      "logoURI": "https://raw.github.com/vesperfi/metadata/master/src/logos/vdai.svg"
     },
     {
       "name": "vBetaETH",
@@ -106,7 +133,10 @@
       "birthblock": 11543581,
       "chainId": 1,
       "riskLevel": 3,
-      "stage": "beta"
+      "stage": "beta",
+      "symbol": "vBetaETH",
+      "decimals": 18,
+      "logoURI": "https://raw.github.com/vesperfi/metadata/master/src/logos/veth.svg"
     },
     {
       "name": "vUSDC",
@@ -116,7 +146,10 @@
       "chainId": 1,
       "riskLevel": 3,
       "supersededBy": "0x777A7850251b7A301cfA1E7b1d8a9c4a9C49Cf85",
-      "stage": "prod"
+      "stage": "prod",
+      "symbol": "vUSDC",
+      "decimals": 18,
+      "logoURI": "https://raw.github.com/vesperfi/metadata/master/src/logos/vusdc.svg"
     },
     {
       "name": "vWBTC",
@@ -125,7 +158,10 @@
       "birthblock": 11475198,
       "chainId": 1,
       "riskLevel": 3,
-      "stage": "prod"
+      "stage": "prod",
+      "symbol": "vWBTC",
+      "decimals": 18,
+      "logoURI": "https://raw.github.com/vesperfi/metadata/master/src/logos/vwbtc.svg"
     },
     {
       "name": "vETH",
@@ -134,7 +170,10 @@
       "birthblock": 11475126,
       "chainId": 1,
       "riskLevel": 3,
-      "stage": "prod"
+      "stage": "prod",
+      "symbol": "vETH",
+      "decimals": 18,
+      "logoURI": "https://raw.github.com/vesperfi/metadata/master/src/logos/veth.svg"
     },
     {
       "name": "vWBTC",
@@ -144,7 +183,10 @@
       "chainId": 1,
       "riskLevel": 3,
       "supersededBy": "0x4B2e76EbBc9f2923d83F5FBDe695D8733db1a17B",
-      "stage": "retired"
+      "stage": "retired",
+      "symbol": "vWBTC",
+      "decimals": 18,
+      "logoURI": "https://raw.github.com/vesperfi/metadata/master/src/logos/vwbtc.svg"
     },
     {
       "name": "vUSDC",
@@ -154,7 +196,10 @@
       "chainId": 1,
       "riskLevel": 3,
       "supersededBy": "0x0C49066C0808Ee8c673553B7cbd99BCC9ABf113d",
-      "stage": "retired"
+      "stage": "retired",
+      "symbol": "vUSDC",
+      "decimals": 18,
+      "logoURI": "https://raw.github.com/vesperfi/metadata/master/src/logos/vusdc.svg"
     },
     {
       "name": "vBTC",
@@ -163,7 +208,10 @@
       "birthblock": 11408018,
       "chainId": 1,
       "riskLevel": 3,
-      "stage": "retired"
+      "stage": "retired",
+      "symbol": "vBTC",
+      "decimals": 18,
+      "logoURI": "https://raw.github.com/vesperfi/metadata/master/src/logos/vwbtc.svg"
     },
     {
       "name": "vETH",
@@ -173,7 +221,10 @@
       "chainId": 1,
       "riskLevel": 3,
       "supersededBy": "0x103cc17C2B1586e5Cd9BaD308690bCd0BBe54D5e",
-      "stage": "retired"
+      "stage": "retired",
+      "symbol": "vETH",
+      "decimals": 18,
+      "logoURI": "https://raw.github.com/vesperfi/metadata/master/src/logos/veth.svg"
     }
   ],
   "tokens": [

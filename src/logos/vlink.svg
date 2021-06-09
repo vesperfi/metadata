@@ -1,0 +1,45 @@
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  width="73"
+  height="79"
+  viewbox="0 0 73 79"
+>
+  <g
+    id="Group_5245"
+    data-name="Group 5245"
+    transform="translate(-718.65 -260.802)"
+  >
+    <g
+      id="Group_4662"
+      data-name="Group 4662"
+      transform="translate(718.65 260.802)"
+    >
+      <g id="Group_68" data-name="Group 68" transform="translate(0)">
+        <g id="Group_64" data-name="Group 64">
+          <circle
+            id="Ellipse_58"
+            data-name="Ellipse 58"
+            cx="36.5"
+            cy="36.5"
+            r="36.5"
+            fill="#fff"
+          />
+          <path
+            id="Path_27"
+            data-name="Path 27"
+            d="M104.362,221.656a34.219,34.219,0,1,1-34.218,34.218,34.258,34.258,0,0,1,34.218-34.218m0-2.281a36.5,36.5,0,1,0,36.5,36.5,36.5,36.5,0,0,0-36.5-36.5Z"
+            transform="translate(-67.863 -219.375)"
+            fill="#0d124d"
+          />
+        </g>
+      </g>
+    </g>
+    <path
+      id="Path_10540"
+      data-name="Path 10540"
+      d="M18.932,9.25l10.931,6.275V28.136l-10.9,6.313L8.04,28.19v-12.6L18.932,9.25m0-9.25L14.924,2.313,4.008,8.649,0,10.961V32.83l4.008,2.313,10.931,6.275,4.008,2.313,4.008-2.313L33.848,35.1l4.008-2.313v-21.9L33.848,8.572,22.925,2.313,18.917,0Z"
+      transform="translate(736.222 275.438)"
+      fill="#0d124d"
+    />
+  </g>
+</svg>
