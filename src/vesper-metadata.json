@@ -47,6 +47,7 @@
       "birthblock": 12479096,
       "chainId": 1,
       "riskLevel": 3,
+      "supersededBy": "0x0C49066C0808Ee8c673553B7cbd99BCC9ABf113d",
       "stage": "beta",
       "version": 3,
       "symbol": "vUSDC-v3",
