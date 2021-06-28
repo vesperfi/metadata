@@ -76,7 +76,7 @@
       "supersededBy": "0x0C49066C0808Ee8c673553B7cbd99BCC9ABf113d",
       "stage": "beta",
       "version": 3,
-      "symbol": "vUSDC-v3",
+      "symbol": "vUSDC",
       "decimals": 18,
       "logoURI": "https://raw.githubusercontent.com/vesperfi/metadata/master/src/logos/vusdc.svg"
     },
@@ -87,8 +87,8 @@
       "birthblock": 12201459,
       "chainId": 1,
       "riskLevel": 3,
-      "stage": "alpha",
-      "symbol": "vUSDC-v2",
+      "stage": "retired",
+      "symbol": "vUSDC",
       "decimals": 18,
       "logoURI": "https://raw.githubusercontent.com/vesperfi/metadata/master/src/logos/vusdc.svg"
     },
