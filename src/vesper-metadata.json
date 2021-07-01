@@ -15,6 +15,19 @@
   ],
   "pools": [
     {
+      "name": "vDAI",
+      "address": "0x8b3C8626cbfaA71d44bd76C1304214f4858E3639",
+      "asset": "DAI",
+      "birthblock": 12731861,
+      "chainId": 1,
+      "riskLevel": 4,
+      "stage": "alpha",
+      "version": 3,
+      "symbol": "vDAI",
+      "decimals": 18,
+      "logoURI": "https://raw.githubusercontent.com/vesperfi/metadata/master/src/logos/vdai.svg"
+    },
+    {
       "name": "vUSDT",
       "address": "0xBA680a906d8f624a5F11fba54D3C672f09F26e47",
       "asset": "USDT",
