@@ -15,13 +15,27 @@
   ],
   "pools": [
     {
+      "name": "vaDAI",
+      "address": "0x0538C8bAc84E95A9dF8aC10Aad17DbE81b9E36ee",
+      "asset": "DAI",
+      "birthblock": 12782830,
+      "chainId": 1,
+      "riskLevel": 4,
+      "stage": "alpha",
+      "version": 3,
+      "symbol": "vaDAI",
+      "decimals": 18,
+      "logoURI": "https://raw.githubusercontent.com/vesperfi/metadata/master/src/logos/vadai.svg",
+      "type": "grow"
+    },
+    {
       "name": "vDAI",
       "address": "0x8b3C8626cbfaA71d44bd76C1304214f4858E3639",
       "asset": "DAI",
       "birthblock": 12731861,
       "chainId": 1,
       "riskLevel": 4,
-      "stage": "alpha",
+      "stage": "retired",
       "version": 3,
       "symbol": "vDAI",
       "decimals": 18,
