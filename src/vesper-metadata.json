@@ -15,6 +15,20 @@
   ],
   "pools": [
     {
+      "name": "vUSDC",
+      "address": "0xF8ea0eE6818C6CF798a1b208139f6b56563F6067",
+      "asset": "USDC",
+      "birthblock": 16674529,
+      "chainId": 137,
+      "riskLevel": 3,
+      "stage": "alpha",
+      "version": 3,
+      "symbol": "vUSDC",
+      "decimals": 18,
+      "logoURI": "https://raw.githubusercontent.com/vesperfi/metadata/master/src/logos/vusdc.svg",
+      "type": "grow"
+    },
+    {
       "name": "vaDAI",
       "address": "0x0538C8bAc84E95A9dF8aC10Aad17DbE81b9E36ee",
       "asset": "DAI",

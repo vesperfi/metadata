@@ -24,3 +24,4 @@ jobs:
       - run: npm run test
         env:
           ETH_NODE_URL: ${{ secrets.ETH_NODE_URL }}
+          POLYGON_NODE_URL: ${{ secrets.POLYGON_NODE_URL }}

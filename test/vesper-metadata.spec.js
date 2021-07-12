@@ -62,6 +62,9 @@ describe('Metadata', function () {
           case 1:
             url = process.env.ETH_NODE_URL
             break
+          case 137:
+            url = process.env.POLYGON_NODE_URL
+            break
           default:
             this.skip()
             return
