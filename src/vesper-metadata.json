@@ -15,6 +15,20 @@
   ],
   "pools": [
     {
+      "name": "veETH-DAI",
+      "address": "0xA89566489E932a2d334b9eFF7884Feb21a07d2B3",
+      "asset": "ETH",
+      "birthblock": 12794991,
+      "chainId": 1,
+      "riskLevel": 3,
+      "stage": "alpha",
+      "version": 3,
+      "symbol": "veETH-DAI",
+      "decimals": 18,
+      "logoURI": "https://raw.githubusercontent.com/vesperfi/metadata/master/src/logos/veeth-dai.svg",
+      "type": "earn"
+    },
+    {
       "name": "vUSDC",
       "address": "0xF8ea0eE6818C6CF798a1b208139f6b56563F6067",
       "asset": "USDC",
@@ -53,7 +67,8 @@
       "version": 3,
       "symbol": "vDAI",
       "decimals": 18,
-      "logoURI": "https://raw.githubusercontent.com/vesperfi/metadata/master/src/logos/vdai.svg"
+      "logoURI": "https://raw.githubusercontent.com/vesperfi/metadata/master/src/logos/vdai.svg",
+      "type": "grow"
     },
     {
       "name": "vUSDT",
@@ -66,7 +81,8 @@
       "version": 3,
       "symbol": "vUSDT",
       "decimals": 18,
-      "logoURI": "https://raw.githubusercontent.com/vesperfi/metadata/master/src/logos/vusdt.svg"
+      "logoURI": "https://raw.githubusercontent.com/vesperfi/metadata/master/src/logos/vusdt.svg",
+      "type": "grow"
     },
     {
       "name": "vUNI",
@@ -79,7 +95,8 @@
       "version": 3,
       "symbol": "vUNI",
       "decimals": 18,
-      "logoURI": "https://raw.githubusercontent.com/vesperfi/metadata/master/src/logos/vuni.svg"
+      "logoURI": "https://raw.githubusercontent.com/vesperfi/metadata/master/src/logos/vuni.svg",
+      "type": "grow"
     },
     {
       "name": "vUSDT",
@@ -92,7 +109,8 @@
       "version": 3,
       "symbol": "vUSDT",
       "decimals": 18,
-      "logoURI": "https://raw.githubusercontent.com/vesperfi/metadata/master/src/logos/vusdt.svg"
+      "logoURI": "https://raw.githubusercontent.com/vesperfi/metadata/master/src/logos/vusdt.svg",
+      "type": "grow"
     },
     {
       "name": "vUNI",
@@ -105,7 +123,8 @@
       "version": 3,
       "symbol": "vUNI",
       "decimals": 18,
-      "logoURI": "https://raw.githubusercontent.com/vesperfi/metadata/master/src/logos/vuni.svg"
+      "logoURI": "https://raw.githubusercontent.com/vesperfi/metadata/master/src/logos/vuni.svg",
+      "type": "grow"
     },
     {
       "name": "vUSDC-v3",
@@ -119,7 +138,8 @@
       "version": 3,
       "symbol": "vUSDC",
       "decimals": 18,
-      "logoURI": "https://raw.githubusercontent.com/vesperfi/metadata/master/src/logos/vusdc.svg"
+      "logoURI": "https://raw.githubusercontent.com/vesperfi/metadata/master/src/logos/vusdc.svg",
+      "type": "grow"
     },
     {
       "name": "vUSDC-v2",
@@ -131,7 +151,8 @@
       "stage": "retired",
       "symbol": "vUSDC",
       "decimals": 18,
-      "logoURI": "https://raw.githubusercontent.com/vesperfi/metadata/master/src/logos/vusdc.svg"
+      "logoURI": "https://raw.githubusercontent.com/vesperfi/metadata/master/src/logos/vusdc.svg",
+      "type": "grow"
     },
     {
       "name": "vLINK",
@@ -143,7 +164,8 @@
       "stage": "prod",
       "symbol": "vLINK",
       "decimals": 18,
-      "logoURI": "https://raw.githubusercontent.com/vesperfi/metadata/master/src/logos/vlink.svg"
+      "logoURI": "https://raw.githubusercontent.com/vesperfi/metadata/master/src/logos/vlink.svg",
+      "type": "grow"
     },
     {
       "name": "vVSP",
@@ -156,7 +178,8 @@
       "stage": "prod",
       "symbol": "vVSP",
       "decimals": 18,
-      "logoURI": "https://raw.githubusercontent.com/vesperfi/metadata/master/src/logos/vvsp.svg"
+      "logoURI": "https://raw.githubusercontent.com/vesperfi/metadata/master/src/logos/vvsp.svg",
+      "type": "grow"
     },
     {
       "name": "vBetaWBTC",
@@ -168,7 +191,8 @@
       "stage": "beta",
       "symbol": "vBetaWBTC",
       "decimals": 18,
-      "logoURI": "https://raw.githubusercontent.com/vesperfi/metadata/master/src/logos/vwbtc.svg"
+      "logoURI": "https://raw.githubusercontent.com/vesperfi/metadata/master/src/logos/vwbtc.svg",
+      "type": "grow"
     },
     {
       "name": "vBetaUSDC",
@@ -180,7 +204,8 @@
       "stage": "beta",
       "symbol": "vBetaUSDC",
       "decimals": 18,
-      "logoURI": "https://raw.githubusercontent.com/vesperfi/metadata/master/src/logos/vusdc.svg"
+      "logoURI": "https://raw.githubusercontent.com/vesperfi/metadata/master/src/logos/vusdc.svg",
+      "type": "grow"
     },
     {
       "name": "vDAI",
@@ -192,7 +217,8 @@
       "stage": "prod",
       "symbol": "vDAI",
       "decimals": 18,
-      "logoURI": "https://raw.githubusercontent.com/vesperfi/metadata/master/src/logos/vdai.svg"
+      "logoURI": "https://raw.githubusercontent.com/vesperfi/metadata/master/src/logos/vdai.svg",
+      "type": "grow"
     },
     {
       "name": "vBetaETH",
@@ -204,7 +230,8 @@
       "stage": "beta",
       "symbol": "vBetaETH",
       "decimals": 18,
-      "logoURI": "https://raw.githubusercontent.com/vesperfi/metadata/master/src/logos/veth.svg"
+      "logoURI": "https://raw.githubusercontent.com/vesperfi/metadata/master/src/logos/veth.svg",
+      "type": "grow"
     },
     {
       "name": "vUSDC",
@@ -216,7 +243,8 @@
       "stage": "prod",
       "symbol": "vUSDC",
       "decimals": 18,
-      "logoURI": "https://raw.githubusercontent.com/vesperfi/metadata/master/src/logos/vusdc.svg"
+      "logoURI": "https://raw.githubusercontent.com/vesperfi/metadata/master/src/logos/vusdc.svg",
+      "type": "grow"
     },
     {
       "name": "vWBTC",
@@ -228,7 +256,8 @@
       "stage": "prod",
       "symbol": "vWBTC",
       "decimals": 18,
-      "logoURI": "https://raw.githubusercontent.com/vesperfi/metadata/master/src/logos/vwbtc.svg"
+      "logoURI": "https://raw.githubusercontent.com/vesperfi/metadata/master/src/logos/vwbtc.svg",
+      "type": "grow"
     },
     {
       "name": "vETH",
@@ -240,7 +269,8 @@
       "stage": "prod",
       "symbol": "vETH",
       "decimals": 18,
-      "logoURI": "https://raw.githubusercontent.com/vesperfi/metadata/master/src/logos/veth.svg"
+      "logoURI": "https://raw.githubusercontent.com/vesperfi/metadata/master/src/logos/veth.svg",
+      "type": "grow"
     },
     {
       "name": "vWBTC",
@@ -253,7 +283,8 @@
       "stage": "retired",
       "symbol": "vWBTC",
       "decimals": 18,
-      "logoURI": "https://raw.githubusercontent.com/vesperfi/metadata/master/src/logos/vwbtc.svg"
+      "logoURI": "https://raw.githubusercontent.com/vesperfi/metadata/master/src/logos/vwbtc.svg",
+      "type": "grow"
     },
     {
       "name": "vUSDC",
@@ -266,7 +297,8 @@
       "stage": "retired",
       "symbol": "vUSDC",
       "decimals": 18,
-      "logoURI": "https://raw.githubusercontent.com/vesperfi/metadata/master/src/logos/vusdc.svg"
+      "logoURI": "https://raw.githubusercontent.com/vesperfi/metadata/master/src/logos/vusdc.svg",
+      "type": "grow"
     },
     {
       "name": "vBTC",
@@ -278,7 +310,8 @@
       "stage": "retired",
       "symbol": "vBTC",
       "decimals": 18,
-      "logoURI": "https://raw.githubusercontent.com/vesperfi/metadata/master/src/logos/vwbtc.svg"
+      "logoURI": "https://raw.githubusercontent.com/vesperfi/metadata/master/src/logos/vwbtc.svg",
+      "type": "grow"
     },
     {
       "name": "vETH",
@@ -291,7 +324,8 @@
       "stage": "retired",
       "symbol": "vETH",
       "decimals": 18,
-      "logoURI": "https://raw.githubusercontent.com/vesperfi/metadata/master/src/logos/veth.svg"
+      "logoURI": "https://raw.githubusercontent.com/vesperfi/metadata/master/src/logos/veth.svg",
+      "type": "grow"
     }
   ],
   "tokens": [
@@ -300,7 +334,8 @@
       "address": "0x1b40183EFB4Dd766f11bDa7A7c3AD8982e998421",
       "decimals": 18,
       "chainId": 1,
-      "logoURI": "https://raw.githubusercontent.com/vesperfi/metadata/master/src/logos/vsp.svg"
+      "logoURI": "https://raw.githubusercontent.com/vesperfi/metadata/master/src/logos/vsp.svg",
+      "type": "grow"
     }
   ],
   "support": [

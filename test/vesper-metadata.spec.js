@@ -11,7 +11,6 @@ require('chai').use(require('chai-as-promised')).should()
 const metadata = require('../src/vesper-metadata.json')
 
 const poolAbi = require('./abi/pool.json')
-const { EHOSTUNREACH } = require('constants')
 
 describe('Metadata', function () {
   metadata.pools.forEach(function (pool) {
@@ -33,6 +32,10 @@ describe('Metadata', function () {
         pool.should.have.a.property('symbol').that.is.a('string')
         pool.should.have.a.property('decimals').that.is.a('number')
         pool.should.have.a.property('logoURI').that.is.a('string')
+        pool.should.have.a
+          .property('type')
+          .that.is.a('string')
+          .that.match(/^(grow|earn)$/)
 
         if (pool.version) {
           pool.version.should.be.a('number')
@@ -78,8 +81,8 @@ describe('Metadata', function () {
             .call()
             .should.eventually.equal(
               `${pool.name.replace(/-v[0-9]+$/, '')} ${
-                pool.name === 'vVSP' ? 'pool' : 'Pool'
-              }`
+                pool.name.startsWith('ve') ? 'Earn ' : ''
+              }${pool.name === 'vVSP' ? 'pool' : 'Pool'}`
             ),
           contract.methods
             .token()
