@@ -84,6 +84,7 @@ describe('Metadata', function () {
                 pool.name.startsWith('ve') ? 'Earn ' : ''
               }${pool.name === 'vVSP' ? 'pool' : 'Pool'}`
             ),
+          contract.methods.name().call().should.eventually.equal(pool.poolName),
           contract.methods
             .token()
             .call()

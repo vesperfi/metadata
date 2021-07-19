@@ -16,6 +16,7 @@
   "pools": [
     {
       "name": "veETH-DAI",
+      "poolName": "veETH-DAI Earn Pool",
       "address": "0xA89566489E932a2d334b9eFF7884Feb21a07d2B3",
       "asset": "ETH",
       "birthblock": 12794991,
@@ -30,6 +31,7 @@
     },
     {
       "name": "vUSDC",
+      "poolName": "vUSDC Pool",
       "address": "0xF8ea0eE6818C6CF798a1b208139f6b56563F6067",
       "asset": "USDC",
       "birthblock": 16674529,
@@ -44,6 +46,7 @@
     },
     {
       "name": "vaDAI",
+      "poolName": "vaDAI Pool",
       "address": "0x0538C8bAc84E95A9dF8aC10Aad17DbE81b9E36ee",
       "asset": "DAI",
       "birthblock": 12782830,
@@ -58,6 +61,7 @@
     },
     {
       "name": "vDAI",
+      "poolName": "vDAI Pool",
       "address": "0x8b3C8626cbfaA71d44bd76C1304214f4858E3639",
       "asset": "DAI",
       "birthblock": 12731861,
@@ -72,6 +76,7 @@
     },
     {
       "name": "vUSDT",
+      "poolName": "vUSDT Pool",
       "address": "0xBA680a906d8f624a5F11fba54D3C672f09F26e47",
       "asset": "USDT",
       "birthblock": 12725974,
@@ -86,6 +91,7 @@
     },
     {
       "name": "vUNI",
+      "poolName": "vUNI Pool",
       "address": "0xfF43C327410F960261057ba1DA787eD78B42c257",
       "asset": "UNI",
       "birthblock": 12725830,
@@ -100,6 +106,7 @@
     },
     {
       "name": "vUSDT",
+      "poolName": "vUSDT Pool",
       "address": "0x95c0b30C6276e67Ae95127aF458573a63113BdFF",
       "asset": "USDT",
       "birthblock": 12525156,
@@ -114,6 +121,7 @@
     },
     {
       "name": "vUNI",
+      "poolName": "vUNI Pool",
       "address": "0xf858a354AD255D21e17C56f8F2b10Ed67dfb40aE",
       "asset": "UNI",
       "birthblock": 12520468,
@@ -128,6 +136,7 @@
     },
     {
       "name": "vUSDC-v3",
+      "poolName": "vUSDC Pool",
       "address": "0x777A7850251b7A301cfA1E7b1d8a9c4a9C49Cf85",
       "asset": "USDC",
       "birthblock": 12479096,
@@ -143,6 +152,7 @@
     },
     {
       "name": "vUSDC-v2",
+      "poolName": "vUSDC Pool",
       "address": "0xB1C0d6EFD3bAb0FC3CA648a12C15d0827e3bcde5",
       "asset": "USDC",
       "birthblock": 12201459,
@@ -156,6 +166,7 @@
     },
     {
       "name": "vLINK",
+      "poolName": "vLINK Pool",
       "address": "0x0a27E910Aee974D05000e05eab8a4b8Ebd93D40C",
       "asset": "LINK",
       "birthblock": 12144811,
@@ -169,6 +180,7 @@
     },
     {
       "name": "vVSP",
+      "poolName": "vVSP pool",
       "address": "0xbA4cFE5741b357FA371b506e5db0774aBFeCf8Fc",
       "asset": "VSP",
       "birthblock": 11868095,
@@ -183,6 +195,7 @@
     },
     {
       "name": "vBetaWBTC",
+      "poolName": "vBetaWBTC Pool",
       "address": "0x74Cc5BC20B0c396dF5680eE4aeB6169A6288a8aF",
       "asset": "WBTC",
       "birthblock": 11616578,
@@ -196,6 +209,7 @@
     },
     {
       "name": "vBetaUSDC",
+      "poolName": "vBetaUSDC Pool",
       "address": "0x1e86044468b92c310800d4B350E0F83387a7097F",
       "asset": "USDC",
       "birthblock": 11607534,
@@ -209,6 +223,7 @@
     },
     {
       "name": "vDAI",
+      "poolName": "vDAI Pool",
       "address": "0xcA0c34A3F35520B9490C1d58b35A19AB64014D80",
       "asset": "DAI",
       "birthblock": 11594191,
@@ -222,6 +237,7 @@
     },
     {
       "name": "vBetaETH",
+      "poolName": "vBetaETH Pool",
       "address": "0x2C361913e2dA663e1898162Ec01497C46eb87AbF",
       "asset": "WETH",
       "birthblock": 11543581,
@@ -235,6 +251,7 @@
     },
     {
       "name": "vUSDC",
+      "poolName": "vUSDC Pool",
       "address": "0x0C49066C0808Ee8c673553B7cbd99BCC9ABf113d",
       "asset": "USDC",
       "birthblock": 11475256,
@@ -248,6 +265,7 @@
     },
     {
       "name": "vWBTC",
+      "poolName": "vWBTC Pool",
       "address": "0x4B2e76EbBc9f2923d83F5FBDe695D8733db1a17B",
       "asset": "WBTC",
       "birthblock": 11475198,
@@ -261,6 +279,7 @@
     },
     {
       "name": "vETH",
+      "poolName": "vETH Pool",
       "address": "0x103cc17C2B1586e5Cd9BaD308690bCd0BBe54D5e",
       "asset": "ETH",
       "birthblock": 11475126,
@@ -274,6 +293,7 @@
     },
     {
       "name": "vWBTC",
+      "poolName": "vWBTC Pool",
       "address": "0xCc9bE1B4Ae3C9D20E8DFe6cc041e196150AC0605",
       "asset": "WBTC",
       "birthblock": 11453513,
@@ -288,6 +308,7 @@
     },
     {
       "name": "vUSDC",
+      "poolName": "vUSDC Pool",
       "address": "0x4a4A54e2F8bCAFDbE426f4c45Ec9F9E64f411101",
       "asset": "USDC",
       "birthblock": 11408043,
@@ -302,6 +323,7 @@
     },
     {
       "name": "vBTC",
+      "poolName": "vBTC Pool",
       "address": "0xd773cA264b5363F25F7f96319076753849Af168B",
       "asset": "WBTC",
       "birthblock": 11408018,
@@ -315,6 +337,7 @@
     },
     {
       "name": "vETH",
+      "poolName": "vETH Pool",
       "address": "0xE4E3dA7D4Ed8d936F3224f0FFd7E29dDe3F39A29",
       "asset": "ETH",
       "birthblock": 11407993,
