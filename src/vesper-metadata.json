@@ -49,7 +49,7 @@
       "birthblock": 12782830,
       "chainId": 1,
       "riskLevel": 4,
-      "stage": "alpha",
+      "stage": "beta",
       "version": 3,
       "symbol": "vaDAI",
       "decimals": 18,
