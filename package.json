@@ -11,6 +11,7 @@
     "list",
     "metadata",
     "pools",
+    "tokenlist",
     "tokens",
     "vesper",
     "vsp"
@@ -19,13 +20,14 @@
   "license": "MIT",
   "author": "Gabriel Montes <gabriel@bloq.com>",
   "files": [
-    "src/vesper-metadata.json"
+    "src/*.json"
   ],
   "main": "src/vesper-metadata.json",
   "repository": "vesperfi/metadata",
   "scripts": {
     "format": "prettier --write .",
     "format:check": "prettier --check .",
+    "prepublishOnly": "node scripts/token-list.js",
     "test": "mocha",
     "version": "node scripts/sync-version.js && git add ${npm_package_main}"
   },
