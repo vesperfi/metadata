@@ -353,12 +353,20 @@
   ],
   "tokens": [
     {
+      "name": "VesperToken",
       "symbol": "VSP",
       "address": "0x1b40183EFB4Dd766f11bDa7A7c3AD8982e998421",
       "decimals": 18,
       "chainId": 1,
-      "logoURI": "https://raw.githubusercontent.com/vesperfi/metadata/master/src/logos/vsp.svg",
-      "type": "grow"
+      "logoURI": "https://raw.githubusercontent.com/vesperfi/metadata/master/src/logos/vsp.svg"
+    },
+    {
+      "name": "VUSD",
+      "symbol": "VUSD",
+      "address": "0x677ddbd918637E5F2c79e164D402454dE7dA8619",
+      "decimals": 18,
+      "chainId": 1,
+      "logoURI": "https://raw.githubusercontent.com/vesperfi/metadata/master/src/logos/vusd.svg"
     }
   ],
   "support": [
