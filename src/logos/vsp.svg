@@ -1,31 +1,7 @@
-<svg
-  xmlns="http://www.w3.org/2000/svg"
-  width="72.183"
-  height="72.183"
-  viewbox="0 0 72.183 72.183"
->
-  <g transform="translate(-120 -1386)">
-    <g transform="translate(120 1386)">
-      <path
-        className="b"
-        d="M36.909,1A35.909,35.909,0,1,0,72.818,36.908,35.909,35.909,0,0,0,36.909,1Z"
-        transform="translate(-1 -1)"
-        fill="#4138ac"
-      />
-      <circle
-        className="c"
-        cx="36"
-        cy="36"
-        r="36"
-        transform="translate(0 0)"
-        fill="#4138ac"
-      />
-      <path
-        className="d"
-        d="M263.826,336.538l-7.5,23.148-7.5-23.148h-14.2l2.208,6.265h6.585l9.5,26.9h6.806l11.711-33.169Z"
-        transform="translate(-218.315 -314.342)"
-        fill="#fff"
-      />
-    </g>
+<svg xmlns="http://www.w3.org/2000/svg" width="72.183" height="72.183">
+  <g>
+    <path fill="#4138ac" d="M35.909 0a35.909 35.909 0 1035.909 35.908A35.909 35.909 0 0035.909 0z" />
+    <circle cx="36" cy="36" r="36" fill="#4138ac" />
+    <path fill="#fff" d="M45.511 22.196l-7.5 23.148-7.5-23.148h-14.2l2.208 6.265h6.585l9.5 26.9h6.806l11.711-33.169z" />
   </g>
 </svg>
