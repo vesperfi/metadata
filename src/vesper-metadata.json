@@ -191,7 +191,7 @@
       "symbol": "vVSP",
       "decimals": 18,
       "logoURI": "https://raw.githubusercontent.com/vesperfi/metadata/master/src/logos/vvsp.svg",
-      "type": "grow"
+      "type": "governance"
     },
     {
       "name": "vBetaWBTC",
