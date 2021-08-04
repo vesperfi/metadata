@@ -60,6 +60,8 @@ describe('Metadata', function () {
       })
 
       it('should match contract data', function () {
+        this.timeout(5000)
+
         let url
         switch (pool.chainId) {
           case 1:
