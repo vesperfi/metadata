@@ -15,6 +15,21 @@
   ],
   "pools": [
     {
+      "name": "vDAI",
+      "poolName": "vDAI Pool",
+      "address": "0xB4eDcEFd59750144882170FCc52ffeD40BfD5f7d",
+      "asset": "DAI",
+      "birthblock": 12953312,
+      "chainId": 1,
+      "riskLevel": 3,
+      "stage": "alpha",
+      "version": 3,
+      "symbol": "vDAI",
+      "decimals": 18,
+      "logoURI": "https://raw.githubusercontent.com/vesperfi/metadata/master/src/logos/vdai.svg",
+      "type": "grow"
+    },
+    {
       "name": "veETH-DAI",
       "poolName": "veETH-DAI Earn Pool",
       "address": "0xA89566489E932a2d334b9eFF7884Feb21a07d2B3",
