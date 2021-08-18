@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="81" height="81">
+  <g data-name="Group 4686">
+    <g data-name="Group 4685">
+      <g data-name="Group 4662">
+        <g data-name="Group 68">
+          <g data-name="Group 64">
+            <circle cx="40.292" cy="40.292" r="40.292" fill="#fff" data-name="Ellipse 58" />
+            <path fill="#0d124d"
+              d="M40.291 2.518A37.774 37.774 0 112.518 40.291 37.817 37.817 0 0140.291 2.518m0-2.518a40.292 40.292 0 1040.293 40.291A40.291 40.291 0 0040.291 0z"
+              data-name="Path 27" />
+          </g>
+        </g>
+      </g>
+    </g>
+    <g fill="#0d124d" data-name="Group 4664">
+      <path d="M40.292 34.051V15.498L24.521 40.545z" data-name="Path 17" opacity=".6" />
+      <path d="M40.292 34.051V15.498l15.771 25.048z" data-name="Path 18" opacity=".8" />
+      <path d="M40.292 34.052v15.771l-15.771-9.277z" data-name="Path 19" opacity=".8" />
+      <path d="M40.292 34.052v15.771l15.771-9.277z" data-name="Path 20" />
+      <path d="M24.521 44.257l15.771 9.277v12.06z" data-name="Path 21" opacity=".6" />
+      <path d="M56.063 44.257l-15.771 9.277v12.06z" data-name="Path 22" opacity=".8" />
+    </g>
+  </g>
+</svg>

@@ -15,6 +15,21 @@
   ],
   "pools": [
     {
+      "name": "vaETH",
+      "poolName": "vaETH Pool",
+      "address": "0xd1C117319B3595fbc39b471AB1fd485629eb05F2",
+      "asset": "ETH",
+      "birthblock": 13044797,
+      "chainId": 1,
+      "riskLevel": 4,
+      "stage": "alpha",
+      "version": 3,
+      "symbol": "vaETH",
+      "decimals": 18,
+      "logoURI": "https://raw.githubusercontent.com/vesperfi/metadata/master/src/logos/vaeth.svg",
+      "type": "grow"
+    },
+    {
       "name": "vDAI",
       "poolName": "vDAI Pool",
       "address": "0xB4eDcEFd59750144882170FCc52ffeD40BfD5f7d",
