@@ -15,6 +15,36 @@
   ],
   "pools": [
     {
+      "name": "vfrsDAI",
+      "poolName": "vfrsDAI Pool",
+      "address": "0xb4C912714f07FcD078d17479010f705F807bB115",
+      "asset": "DAI",
+      "birthblock": 13090878,
+      "chainId": 1,
+      "riskLevel": 3,
+      "stage": "alpha",
+      "version": 3,
+      "symbol": "vfrsDAI",
+      "decimals": 18,
+      "logoURI": "https://raw.githubusercontent.com/vesperfi/metadata/master/src/logos/vfrsdai.svg",
+      "type": "vfr-s"
+    },
+    {
+      "name": "vfrcDAI",
+      "poolName": "vfrcDAI Pool",
+      "address": "0x0b1E5e449CA0d7D8937d038e298737e023e86Dc5",
+      "asset": "DAI",
+      "birthblock": 13090326,
+      "chainId": 1,
+      "riskLevel": 3,
+      "stage": "alpha",
+      "version": 3,
+      "symbol": "vfrcDAI",
+      "decimals": 18,
+      "logoURI": "https://raw.githubusercontent.com/vesperfi/metadata/master/src/logos/vfrcdai.svg",
+      "type": "vfr-c"
+    },
+    {
       "name": "vaETH",
       "poolName": "vaETH Pool",
       "address": "0xd1C117319B3595fbc39b471AB1fd485629eb05F2",

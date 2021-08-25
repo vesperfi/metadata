@@ -35,7 +35,7 @@ describe('Metadata', function () {
         pool.should.have.a
           .property('type')
           .that.is.a('string')
-          .that.match(/^(earn|governance|grow)$/)
+          .that.match(/^(earn|governance|grow|vfr-c|vfr-s)$/)
 
         if (pool.version) {
           pool.version.should.be.a('number')
