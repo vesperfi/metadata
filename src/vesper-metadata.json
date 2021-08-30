@@ -52,7 +52,7 @@
       "birthblock": 13044797,
       "chainId": 1,
       "riskLevel": 4,
-      "stage": "alpha",
+      "stage": "beta",
       "version": 3,
       "symbol": "vaETH",
       "decimals": 18,
