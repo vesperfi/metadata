@@ -28,18 +28,19 @@ describe('Metadata', function () {
         pool.should.have.a
           .property('stage')
           .that.is.a('string')
-          .that.match(/^(alpha|beta|prod|retired)$/)
+          .that.matches(/^(alpha|beta|prod|retired)$/)
         pool.should.have.a.property('symbol').that.is.a('string')
         pool.should.have.a.property('decimals').that.is.a('number')
         pool.should.have.a.property('logoURI').that.is.a('string')
         pool.should.have.a
           .property('type')
           .that.is.a('string')
-          .that.match(/^(earn|governance|grow|vfr-c|vfr-s)$/)
+          .that.matches(/^(earn|governance|grow|vfr-c|vfr-s)$/)
 
-        if (pool.version) {
-          pool.version.should.be.a('number')
-        }
+        pool.should.have.a
+          .property('version')
+          .that.is.a('string')
+          .that.matches(/^\d+.\d+.\d$/)
         if (pool.supersededBy) {
           Web3.utils.checkAddressChecksum(pool.supersededBy).should.be.true
         }
@@ -99,14 +100,15 @@ describe('Metadata', function () {
           contract.methods
             .VERSION()
             .call()
-            .then(version => version.substring(0, version.indexOf('.')))
-            .catch(function (err) {
-              if (err.message.toLowerCase().includes('reverted')) {
-                return '1'
-              }
-              throw err
+            .then(function (version) {
+              version.should.equal(pool.version)
             })
-            .should.eventually.equal((pool.version || 1).toString()),
+            .catch(function (err) {
+              if (!err.message.toLowerCase().includes('reverted')) {
+                throw err
+              }
+              pool.version.should.match(/^[1-2]\.\d+\.\d+$/)
+            }),
           contract.methods.symbol().call().should.eventually.equal(pool.symbol),
           contract.methods
             .decimals()
