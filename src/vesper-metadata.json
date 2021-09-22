@@ -15,6 +15,21 @@
   ],
   "pools": [
     {
+      "name": "vaWBTC",
+      "poolName": "vaWBTC Pool",
+      "address": "0x01e1d41C1159b745298724c5Fd3eAfF3da1C6efD",
+      "asset": "WBTC",
+      "birthblock": 13266362,
+      "chainId": 1,
+      "riskLevel": 4,
+      "stage": "alpha",
+      "version": 3,
+      "symbol": "vaWBTC",
+      "decimals": 18,
+      "logoURI": "https://raw.githubusercontent.com/vesperfi/metadata/master/src/logos/vawbtc.svg",
+      "type": "grow"
+    },
+    {
       "name": "vfrsDAI",
       "poolName": "vfrsDAI Pool",
       "address": "0xb4C912714f07FcD078d17479010f705F807bB115",
