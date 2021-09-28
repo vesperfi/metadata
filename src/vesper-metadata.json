@@ -22,7 +22,7 @@
       "birthblock": 13266362,
       "chainId": 1,
       "riskLevel": 4,
-      "stage": "alpha",
+      "stage": "beta",
       "version": 3,
       "symbol": "vaWBTC",
       "decimals": 18,
