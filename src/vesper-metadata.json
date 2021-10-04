@@ -502,6 +502,14 @@
       "decimals": 18,
       "chainId": 1,
       "logoURI": "https://raw.githubusercontent.com/vesperfi/metadata/master/src/logos/vusd.svg"
+    },
+    {
+      "name": "VesperToken (PoS)",
+      "symbol": "VSP",
+      "address": "0x09C5a4BCA808bD1ba2b8E6B3aAF7442046B4ca5B",
+      "decimals": 18,
+      "chainId": 137,
+      "logoURI": "https://raw.githubusercontent.com/vesperfi/metadata/master/src/logos/vsp.svg"
     }
   ],
   "support": [
