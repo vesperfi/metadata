@@ -114,6 +114,41 @@ describe('Metadata', function () {
             .should.eventually.equal(pool.decimals.toString())
         ])
       })
+
+      it('should follow the naming convention', function () {
+        if (
+          [
+            '0x777A7850251b7A301cfA1E7b1d8a9c4a9C49Cf85', // vUSDC-v3
+            '0xB1C0d6EFD3bAb0FC3CA648a12C15d0827e3bcde5' // vUSDC-v2
+          ].includes(pool.address)
+        ) {
+          this.skip()
+          return
+        }
+        pool.name.should.equal(pool.symbol)
+      })
+
+      it('should follow the symbol convention', function () {
+        if (
+          [
+            '0x1e86044468b92c310800d4B350E0F83387a7097F', // vBetaUSDC
+            '0x2C361913e2dA663e1898162Ec01497C46eb87AbF', // vBetaETH
+            '0x74Cc5BC20B0c396dF5680eE4aeB6169A6288a8aF', // vBetaWBTC
+            '0x8b3C8626cbfaA71d44bd76C1304214f4858E3639', // vDAI aggressive
+            '0xd773cA264b5363F25F7f96319076753849Af168B' // vBTC
+          ].includes(pool.address)
+        ) {
+          this.skip()
+          return
+        }
+        if (pool.type === 'grow' && pool.riskLevel >= 4) {
+          pool.symbol.should.equal(`va${pool.asset}`)
+        } else if (pool.type === 'grow') {
+          pool.symbol.should.equal(`v${pool.asset}`)
+        } else if (pool.type === 'earn') {
+          pool.symbol.should.match(new RegExp(`^ve${pool.asset}-[A-Z]+$`))
+        }
+      })
     })
   })
 })
