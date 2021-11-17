@@ -15,6 +15,21 @@
   ],
   "pools": [
     {
+      "name": "vaFEI",
+      "poolName": "vaFEI Pool",
+      "address": "0x2B6c40Ef15Db0D78D08A7D1b4E12d57E88a3e324",
+      "asset": "FEI",
+      "birthblock": 13627965,
+      "chainId": 1,
+      "riskLevel": 4,
+      "stage": "orbit",
+      "version": 3,
+      "symbol": "vaFEI",
+      "decimals": 18,
+      "logoURI": "https://raw.githubusercontent.com/vesperfi/metadata/master/src/logos/vafei.svg",
+      "type": "grow"
+    },
+    {
       "name": "veWBTC-DAI",
       "poolName": "veWBTC-DAI Earn Pool",
       "address": "0x7a74B6D3A07D3249Ea2FBb58e47F0DaF6d6a2ebf",

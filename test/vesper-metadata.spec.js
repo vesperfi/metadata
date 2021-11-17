@@ -2,15 +2,19 @@
 
 require('dotenv').config()
 
-const fs = require('fs')
-const Web3 = require('web3')
 const erc20Abi = require('erc-20-abi')
+const fs = require('fs')
+const sushiswapTokens = require('@sushiswap/default-token-list')
+const uniswapTokens = require('@uniswap/default-token-list')
+const Web3 = require('web3')
 
-require('chai').use(require('chai-as-promised')).should()
+const should = require('chai').use(require('chai-as-promised')).should()
 
 const metadata = require('../src/vesper-metadata.json')
 
 const poolAbi = require('./abi/pool.json')
+
+const allTokens = [].concat(uniswapTokens.tokens).concat(sushiswapTokens.tokens)
 
 describe('Metadata', function () {
   metadata.pools.forEach(function (pool) {
@@ -28,7 +32,7 @@ describe('Metadata', function () {
         pool.should.have.a
           .property('stage')
           .that.is.a('string')
-          .that.match(/^(alpha|beta|prod|retired)$/)
+          .that.match(/^(alpha|beta|orbit|prod|retired)$/)
         pool.should.have.a.property('symbol').that.is.a('string')
         pool.should.have.a.property('decimals').that.is.a('number')
         pool.should.have.a.property('logoURI').that.is.a('string')
@@ -148,6 +152,19 @@ describe('Metadata', function () {
         } else if (pool.type === 'earn') {
           pool.symbol.should.match(new RegExp(`^ve${pool.asset}-[A-Z]+$`))
         }
+      })
+
+      it('should have deposit asset support in token lists', function () {
+        if (pool.asset === 'ETH') {
+          this.skip()
+          return
+        }
+        should.exist(
+          allTokens.find(
+            token =>
+              token.symbol === pool.asset && token.chainId === pool.chainId
+          )
+        )
       })
     })
   })
