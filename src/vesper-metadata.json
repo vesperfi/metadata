@@ -15,6 +15,21 @@
   ],
   "pools": [
     {
+      "name": "vaDPI",
+      "poolName": "vaDPI Pool",
+      "address": "0x9b91ab47cefC35dbe4DDCC7983fFA1fB40795663",
+      "asset": "DPI",
+      "birthblock": 0,
+      "chainId": 1,
+      "riskLevel": 4,
+      "stage": "orbit",
+      "version": 3,
+      "symbol": "vaDPI",
+      "decimals": 18,
+      "logoURI": "https://raw.githubusercontent.com/vesperfi/metadata/master/src/logos/vadpi.svg",
+      "type": "grow"
+    },
+    {
       "name": "vaFRAX",
       "poolName": "vaFRAX Pool",
       "address": "0xc14900dFB1Aa54e7674e1eCf9ce02b3b35157ba5",
