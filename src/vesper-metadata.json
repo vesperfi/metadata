@@ -15,11 +15,26 @@
   ],
   "pools": [
     {
+      "name": "vaALUSD",
+      "poolName": "vaALUSD Pool",
+      "address": "0x8BCdd6a8168d658dFA19721eaB7470e43398Db25",
+      "asset": "alUSD",
+      "birthblock": 13646810,
+      "chainId": 1,
+      "riskLevel": 4,
+      "stage": "orbit",
+      "version": 3,
+      "symbol": "vaALUSD",
+      "decimals": 18,
+      "logoURI": "https://raw.githubusercontent.com/vesperfi/metadata/master/src/logos/vaalusd.svg",
+      "type": "grow"
+    },
+    {
       "name": "vaDPI",
       "poolName": "vaDPI Pool",
       "address": "0x9b91ab47cefC35dbe4DDCC7983fFA1fB40795663",
       "asset": "DPI",
-      "birthblock": 0,
+      "birthblock": 13642194,
       "chainId": 1,
       "riskLevel": 4,
       "stage": "orbit",

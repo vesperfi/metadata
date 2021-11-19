@@ -146,7 +146,7 @@ describe('Metadata', function () {
           return
         }
         if (pool.type === 'grow' && pool.riskLevel >= 4) {
-          pool.symbol.should.equal(`va${pool.asset}`)
+          pool.symbol.should.equal(`va${pool.asset.toUpperCase()}`)
         } else if (pool.type === 'grow') {
           pool.symbol.should.equal(`v${pool.asset}`)
         } else if (pool.type === 'earn') {
