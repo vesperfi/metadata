@@ -15,6 +15,21 @@
   ],
   "pools": [
     {
+      "name": "vaFRAX",
+      "poolName": "vaFRAX Pool",
+      "address": "0xc14900dFB1Aa54e7674e1eCf9ce02b3b35157ba5",
+      "asset": "FRAX",
+      "birthblock": 13641116,
+      "chainId": 1,
+      "riskLevel": 4,
+      "stage": "orbit",
+      "version": 3,
+      "symbol": "vaFRAX",
+      "decimals": 18,
+      "logoURI": "https://raw.githubusercontent.com/vesperfi/metadata/master/src/logos/vafrax.svg",
+      "type": "grow"
+    },
+    {
       "name": "vaFEI",
       "poolName": "vaFEI Pool",
       "address": "0x2B6c40Ef15Db0D78D08A7D1b4E12d57E88a3e324",
