@@ -15,6 +15,21 @@
   ],
   "pools": [
     {
+      "name": "vaUSDC",
+      "poolName": "vaUSDC Pool",
+      "address": "0xa8b607Aa09B6A2E306F93e74c282Fb13f6A80452",
+      "asset": "USDC",
+      "birthblock": 13729330,
+      "chainId": 1,
+      "riskLevel": 4,
+      "stage": "alpha",
+      "version": 3,
+      "symbol": "vaUSDC",
+      "decimals": 18,
+      "logoURI": "https://raw.githubusercontent.com/vesperfi/metadata/master/src/logos/vausdc.svg",
+      "type": "grow"
+    },
+    {
       "name": "veDAI-WBTC",
       "poolName": "veDAI-WBTC Earn Pool",
       "address": "0x35B225880df01cde935Db463D0e70a9e737D516E",
