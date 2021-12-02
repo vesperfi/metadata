@@ -98,7 +98,11 @@ describe('Metadata', function () {
               new web3.eth.Contract(erc20Abi, address).methods.symbol().call()
             )
             .should.eventually.equal(
-              pool.asset === 'ETH' ? 'WETH' : pool.asset
+              pool.asset === 'ETH'
+                ? 'WETH'
+                : pool.asset === 'MATIC'
+                ? 'WMATIC'
+                : pool.asset
             ),
           contract.methods
             .VERSION()
@@ -145,7 +149,7 @@ describe('Metadata', function () {
           this.skip()
           return
         }
-        if (pool.type === 'grow' && pool.riskLevel >= 4) {
+        if (pool.type === 'grow' && pool.riskLevel >= 4 && pool.chainId === 1) {
           pool.symbol.should.equal(`va${pool.asset.toUpperCase()}`)
         } else if (pool.type === 'grow') {
           pool.symbol.should.equal(`v${pool.asset}`)
@@ -155,7 +159,7 @@ describe('Metadata', function () {
       })
 
       it('should have deposit asset support in token lists', function () {
-        if (pool.asset === 'ETH') {
+        if (['ETH', 'MATIC'].includes(pool.asset)) {
           this.skip()
           return
         }

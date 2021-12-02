@@ -15,6 +15,21 @@
   ],
   "pools": [
     {
+      "name": "veDAI-WBTC",
+      "poolName": "veDAI-WBTC Earn Pool",
+      "address": "0x35B225880df01cde935Db463D0e70a9e737D516E",
+      "asset": "DAI",
+      "birthblock": 13722797,
+      "chainId": 1,
+      "riskLevel": 4,
+      "stage": "alpha",
+      "version": 3,
+      "symbol": "veDAI-WBTC",
+      "decimals": 18,
+      "logoURI": "https://raw.githubusercontent.com/vesperfi/metadata/master/src/logos/vedai-wbtc.svg",
+      "type": "earn"
+    },
+    {
       "name": "vaALUSD",
       "poolName": "vaALUSD Pool",
       "address": "0x8BCdd6a8168d658dFA19721eaB7470e43398Db25",
@@ -483,6 +498,21 @@
       "symbol": "vETH",
       "decimals": 18,
       "logoURI": "https://raw.githubusercontent.com/vesperfi/metadata/master/src/logos/veth.svg",
+      "type": "grow"
+    },
+    {
+      "name": "vMATIC",
+      "poolName": "vMATIC Pool",
+      "address": "0x329846f9e19dAa7fD9844065a62eD01BCf63Cf69",
+      "asset": "MATIC",
+      "birthblock": 22026322,
+      "chainId": 137,
+      "riskLevel": 4,
+      "stage": "alpha",
+      "version": 3,
+      "symbol": "vMATIC",
+      "decimals": 18,
+      "logoURI": "https://raw.githubusercontent.com/vesperfi/metadata/master/src/logos/vmatic.svg",
       "type": "grow"
     },
     {
