@@ -12,7 +12,7 @@ const should = require('chai').use(require('chai-as-promised')).should()
 
 const metadata = require('../src/vesper-metadata.json')
 
-const poolAbi = require('./abi/pool.json')
+const poolAbi = require('../scripts/pool-abi.json')
 
 const allTokens = [].concat(uniswapTokens.tokens).concat(sushiswapTokens.tokens)
 
