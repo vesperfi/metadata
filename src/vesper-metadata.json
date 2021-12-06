@@ -523,7 +523,7 @@
       "birthblock": 22026322,
       "chainId": 137,
       "riskLevel": 4,
-      "stage": "alpha",
+      "stage": "beta",
       "version": 3,
       "symbol": "vMATIC",
       "decimals": 18,
