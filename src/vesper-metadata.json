@@ -15,6 +15,21 @@
   ],
   "pools": [
     {
+      "name": "veDAI-DPI",
+      "poolName": "veDAI-DPI Earn Pool",
+      "address": "0xe4Fe646A43DAEC8323922cA3e4Fe782d70805d93",
+      "asset": "DAI",
+      "birthblock": 13755461,
+      "chainId": 1,
+      "riskLevel": 4,
+      "stage": "alpha",
+      "version": 3,
+      "symbol": "veDAI-DPI",
+      "decimals": 18,
+      "logoURI": "https://raw.githubusercontent.com/vesperfi/metadata/master/src/logos/vedai-dpi.svg",
+      "type": "earn"
+    },
+    {
       "name": "vaUSDC",
       "poolName": "vaUSDC Pool",
       "address": "0xa8b607Aa09B6A2E306F93e74c282Fb13f6A80452",
