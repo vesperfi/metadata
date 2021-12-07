@@ -45,6 +45,21 @@
       "type": "grow"
     },
     {
+      "name": "veDAI-ETH",
+      "poolName": "veDAI-ETH Earn Pool",
+      "address": "0xabfF8F065318a8CF0dE66Bd1E90E976381859Ef0",
+      "asset": "DAI",
+      "birthblock": 13727647,
+      "chainId": 1,
+      "riskLevel": 4,
+      "stage": "alpha",
+      "version": 3,
+      "symbol": "veDAI-ETH",
+      "decimals": 18,
+      "logoURI": "https://raw.githubusercontent.com/vesperfi/metadata/master/src/logos/vedai-eth.svg",
+      "type": "earn"
+    },
+    {
       "name": "veDAI-WBTC",
       "poolName": "veDAI-WBTC Earn Pool",
       "address": "0x35B225880df01cde935Db463D0e70a9e737D516E",
