@@ -375,6 +375,21 @@
       "type": "grow"
     },
     {
+      "name": "vaLINK",
+      "poolName": "vaLINK Pool",
+      "address": "0xef4F4604106de23CDadfEAE08fcC34602cB475C1",
+      "asset": "LINK",
+      "birthblock": 13851009,
+      "chainId": 1,
+      "riskLevel": 4,
+      "stage": "alpha",
+      "version": 3,
+      "symbol": "vaLINK",
+      "decimals": 18,
+      "logoURI": "https://raw.githubusercontent.com/vesperfi/metadata/master/src/logos/valink.svg",
+      "type": "grow"
+    },
+    {
       "name": "vLINK",
       "poolName": "vLINK Pool",
       "address": "0x0a27E910Aee974D05000e05eab8a4b8Ebd93D40C",
