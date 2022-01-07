@@ -15,6 +15,51 @@
   ],
   "pools": [
     {
+      "name": "veLINK-DAI",
+      "poolName": "veLINK-DAI Earn Pool",
+      "address": "0x252c805e999115158174dFC997BF5C1342aaDfF2",
+      "asset": "LINK",
+      "birthblock": 13954585,
+      "chainId": 1,
+      "riskLevel": 4,
+      "stage": "alpha",
+      "version": 3,
+      "symbol": "veLINK-DAI",
+      "decimals": 18,
+      "logoURI": "https://raw.githubusercontent.com/vesperfi/metadata/master/src/logos/velink-dai.svg",
+      "type": "earn"
+    },
+    {
+      "name": "veDAI-LINK",
+      "poolName": "veDAI-LINK Earn Pool",
+      "address": "0x83A99dAFf5f84B278D3150A36385fCDf04a0fecf",
+      "asset": "DAI",
+      "birthblock": 13952095,
+      "chainId": 1,
+      "riskLevel": 4,
+      "stage": "alpha",
+      "version": 3,
+      "symbol": "veDAI-LINK",
+      "decimals": 18,
+      "logoURI": "https://raw.githubusercontent.com/vesperfi/metadata/master/src/logos/vedai-link.svg",
+      "type": "earn"
+    },
+    {
+      "name": "vaLINK",
+      "poolName": "vaLINK Pool",
+      "address": "0xef4F4604106de23CDadfEAE08fcC34602cB475C1",
+      "asset": "LINK",
+      "birthblock": 13851009,
+      "chainId": 1,
+      "riskLevel": 4,
+      "stage": "beta",
+      "version": 3,
+      "symbol": "vaLINK",
+      "decimals": 18,
+      "logoURI": "https://raw.githubusercontent.com/vesperfi/metadata/master/src/logos/valink.svg",
+      "type": "grow"
+    },
+    {
       "name": "veDAI-VSP",
       "poolName": "veDAI-VSP Earn Pool",
       "address": "0x8209f3a03730c035163B4414c1545a3137D5B402",
@@ -372,21 +417,6 @@
       "symbol": "vUSDC",
       "decimals": 18,
       "logoURI": "https://raw.githubusercontent.com/vesperfi/metadata/master/src/logos/vusdc.svg",
-      "type": "grow"
-    },
-    {
-      "name": "vaLINK",
-      "poolName": "vaLINK Pool",
-      "address": "0xef4F4604106de23CDadfEAE08fcC34602cB475C1",
-      "asset": "LINK",
-      "birthblock": 13851009,
-      "chainId": 1,
-      "riskLevel": 4,
-      "stage": "beta",
-      "version": 3,
-      "symbol": "vaLINK",
-      "decimals": 18,
-      "logoURI": "https://raw.githubusercontent.com/vesperfi/metadata/master/src/logos/valink.svg",
       "type": "grow"
     },
     {
