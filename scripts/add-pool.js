@@ -22,6 +22,8 @@ function getNodeUrl() {
       return process.env.ETH_NODE_URL
     case '137':
       return process.env.POLYGON_NODE_URL
+    case '43114':
+      return process.env.AVALANCHE_NODE_URL
     default:
       throw new Error(`Missing node URL for chain ${chainId}`)
   }
@@ -33,9 +35,15 @@ function getExplorerUrl() {
       return 'https://api.etherscan.io/api'
     case '137':
       return 'https://api.polygonscan.com/api'
+    case '43114':
+      return 'https://api.snowtrace.io/api'
     default:
       throw new Error(`Missing explorer URL for chain ${chainId}`)
   }
+}
+
+function getStartBlock() {
+  return chainId === '43114' ? '9450000' : '11400000'
 }
 
 function getTokenSymbol(token) {
@@ -47,7 +55,7 @@ function getBirthBlock() {
     module: 'account',
     action: 'txlist',
     address,
-    startblock: '11400000',
+    startblock: getStartBlock(),
     page: '1',
     offset: '1',
     sort: 'asc'
@@ -72,8 +80,20 @@ function getMayorVersion(version) {
   return Number.parseInt(version.split('.')[0])
 }
 
+function handleAvalancheAsset(asset) {
+  return asset.split('.e')[0]
+}
+
+function handleAssetName(asset) {
+  const unwrappedAsset = unwrapped(asset) || asset
+  return chainId === '43114'
+    ? handleAvalancheAsset(unwrappedAsset)
+    : unwrappedAsset
+}
+
 function unwrapped(asset) {
   return {
+    'WAVAX:43114': 'AVAX',
     'WETH:1': 'ETH',
     'WMATIC:137': 'MATIC'
   }[`${asset}:${chainId}`]
@@ -107,13 +127,13 @@ Promise.all([
       name,
       poolName,
       address: web3.utils.toChecksumAddress(address),
-      asset: unwrapped(asset) || asset,
+      asset: handleAssetName(asset),
       birthblock,
       chainId: Number.parseInt(chainId),
       riskLevel:
         poolName.startsWith('va') ||
         poolName.startsWith('ve') ||
-        chainId === '137'
+        chainId !== '1'
           ? 4
           : 3,
       stage: 'alpha',
