@@ -724,6 +724,21 @@
       "decimals": 18,
       "logoURI": "https://raw.githubusercontent.com/vesperfi/metadata/master/src/logos/vusdc.svg",
       "type": "grow"
+    },
+    {
+      "name": "vaDAI",
+      "poolName": "vaDAI Pool",
+      "address": "0x5323F445A8665239222b117aE095423a238F5706",
+      "asset": "DAI",
+      "birthblock": 9452892,
+      "chainId": 43114,
+      "riskLevel": 4,
+      "stage": "alpha",
+      "version": 4,
+      "symbol": "vaDAI",
+      "decimals": 18,
+      "logoURI": "https://raw.githubusercontent.com/vesperfi/metadata/master/src/logos/vadai.svg",
+      "type": "grow"
     }
   ],
   "tokens": [
