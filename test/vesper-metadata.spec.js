@@ -16,6 +16,38 @@ const poolAbi = require('../scripts/pool-abi.json')
 
 const allTokens = [].concat(uniswapTokens.tokens).concat(sushiswapTokens.tokens)
 
+const chains = {
+  1: {
+    nativeAsset: 'ETH',
+    nodeUrl: process.env.ETH_NODE_URL,
+    wrappedNativeAsset: 'WETH'
+  },
+  137: {
+    nativeAsset: 'MATIC',
+    nodeUrl: process.env.POLYGON_NODE_URL,
+    wrappedNativeAsset: 'WMATIC'
+  },
+  43114: {
+    nativeAsset: 'AVAX',
+    nodeUrl: process.env.AVALANCHE_NODE_URL,
+    wrappedNativeAsset: 'WAVAX'
+  }
+}
+
+const nativeAssets = Object.values(chains).map(({ nativeAsset }) => nativeAsset)
+
+const wrappedAssetsMap = Object.values(chains).reduce(
+  (acc, { nativeAsset, wrappedNativeAsset }) => ({
+    ...acc,
+    [nativeAsset]: wrappedNativeAsset
+  }),
+  {}
+)
+
+const getWrappedToken = asset => wrappedAssetsMap[asset] || asset
+
+const handleAvalancheAsset = asset => asset.split('.e')[0]
+
 describe('Metadata', function () {
   metadata.pools.forEach(function (pool) {
     describe(`Pool ${pool.name} (${pool.address})`, function () {
@@ -66,18 +98,7 @@ describe('Metadata', function () {
       it('should match contract data', function () {
         this.timeout(5000)
 
-        let url
-        switch (pool.chainId) {
-          case 1:
-            url = process.env.ETH_NODE_URL
-            break
-          case 137:
-            url = process.env.POLYGON_NODE_URL
-            break
-          default:
-            this.skip()
-            return
-        }
+        const url = chains[pool.chainId].nodeUrl
         const web3 = new Web3(url)
         const contract = new web3.eth.Contract(poolAbi, pool.address)
 
@@ -97,13 +118,8 @@ describe('Metadata', function () {
             .then(address =>
               new web3.eth.Contract(erc20Abi, address).methods.symbol().call()
             )
-            .should.eventually.equal(
-              pool.asset === 'ETH'
-                ? 'WETH'
-                : pool.asset === 'MATIC'
-                ? 'WMATIC'
-                : pool.asset
-            ),
+            .then(handleAvalancheAsset)
+            .should.eventually.equal(getWrappedToken(pool.asset)),
           contract.methods
             .VERSION()
             .call()
@@ -163,7 +179,7 @@ describe('Metadata', function () {
       })
 
       it('should have deposit asset support in token lists', function () {
-        if (['ETH', 'MATIC'].includes(pool.asset)) {
+        if (nativeAssets.includes(pool.asset)) {
           this.skip()
           return
         }
