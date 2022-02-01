@@ -15,21 +15,6 @@
   ],
   "pools": [
     {
-      "name": "veDAI-PUNK",
-      "poolName": "veDAI-PUNK Earn Pool",
-      "address": "0xeBcF77CCE55ed6091F82aEE3c5539841E4D75F49",
-      "asset": "DAI",
-      "birthblock": 14047362,
-      "chainId": 1,
-      "riskLevel": 4,
-      "stage": "beta",
-      "version": 4,
-      "symbol": "veDAI-PUNK",
-      "decimals": 18,
-      "logoURI": "https://raw.githubusercontent.com/vesperfi/metadata/master/src/logos/vedai-punk.svg",
-      "type": "earn"
-    },
-    {
       "name": "veDAI-SHIB",
       "poolName": "veDAI-SHIB Earn Pool",
       "address": "0x6F8D5FD58F5F825FdBF4f3301c0BDd361653488c",
