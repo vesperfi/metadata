@@ -8,13 +8,17 @@ const sushiswapTokens = require('@sushiswap/default-token-list')
 const uniswapTokens = require('@uniswap/default-token-list')
 const Web3 = require('web3')
 
-const should = require('chai').use(require('chai-as-promised')).should()
-
 const metadata = require('../src/vesper-metadata.json')
-
 const poolAbi = require('../scripts/pool-abi.json')
 
-const allTokens = [].concat(uniswapTokens.tokens).concat(sushiswapTokens.tokens)
+const zapperTokens = require('./token-lists/zapper.json').tokens
+
+const should = require('chai').use(require('chai-as-promised')).should()
+
+const allTokens = []
+  .concat(uniswapTokens.tokens)
+  .concat(sushiswapTokens.tokens)
+  .concat(zapperTokens)
 
 const chains = {
   1: {
