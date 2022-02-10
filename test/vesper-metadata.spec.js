@@ -100,6 +100,7 @@ describe('Metadata', function () {
       })
 
       it('should match contract data', function () {
+        this.slow(3000)
         this.timeout(5000)
 
         const url = chains[pool.chainId].nodeUrl
