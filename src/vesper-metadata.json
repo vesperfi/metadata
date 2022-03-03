@@ -248,7 +248,7 @@
       "chainId": 1,
       "riskLevel": 4,
       "stage": "prod",
-      "version": 3,
+      "version": 4,
       "symbol": "veWBTC-DAI",
       "decimals": 18,
       "logoURI": "https://raw.githubusercontent.com/vesperfi/metadata/master/src/logos/vewbtc-dai.svg",
