@@ -11,6 +11,11 @@
       "name": "controller",
       "address": "0xa4F1671d3Aee73C05b552d57f2d16d3cfcBd0217",
       "chainId": 1
+    },
+    {
+      "name": "synth",
+      "address": "0x8EF55277fa3c722F5b042Bb9B569eB7444FfeF1e",
+      "chainId": 43114
     }
   ],
   "pools": [
