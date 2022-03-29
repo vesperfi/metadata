@@ -20,6 +20,21 @@
   ],
   "pools": [
     {
+      "name": "vaAPE",
+      "poolName": "vaAPE Pool",
+      "address": "0xA5Bc6eB0A7E6738e2F2Ac6c92280b32771aC52Ad",
+      "asset": "APE",
+      "birthblock": 14476894,
+      "chainId": 1,
+      "riskLevel": 4,
+      "stage": "alpha",
+      "version": 4,
+      "symbol": "vaAPE",
+      "decimals": 18,
+      "logoURI": "https://raw.githubusercontent.com/vesperfi/metadata/master/src/logos/vaape.svg",
+      "type": "grow"
+    },
+    {
       "name": "vaMUSD",
       "poolName": "vaMUSD Pool",
       "address": "0x83c608b3997db00B5C6D93746785857Cd22d4495",
