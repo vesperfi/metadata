@@ -791,6 +791,21 @@
       "type": "grow"
     },
     {
+      "name": "vaAVAX",
+      "poolName": "vaAVAX Pool",
+      "address": "0xEa94eBB08E9604AFD225f2c61fa61401F1ed1047",
+      "asset": "AVAX",
+      "birthblock": 13026570,
+      "chainId": 43114,
+      "riskLevel": 4,
+      "stage": "alpha",
+      "version": 4,
+      "symbol": "vaAVAX",
+      "decimals": 18,
+      "logoURI": "https://raw.githubusercontent.com/vesperfi/metadata/master/src/logos/vaavax.svg",
+      "type": "grow"
+    },
+    {
       "name": "vaUSDC",
       "poolName": "vaUSDC Pool",
       "address": "0x13AECC59A88A65F02E053eEce29d743a952D6f1e",
@@ -828,7 +843,7 @@
       "birthblock": 10085848,
       "chainId": 43114,
       "riskLevel": 4,
-      "stage": "beta",
+      "stage": "retired",
       "version": 4,
       "symbol": "vaAVAX",
       "decimals": 18,
