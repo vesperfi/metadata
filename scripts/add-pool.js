@@ -80,15 +80,8 @@ function getMayorVersion(version) {
   return Number.parseInt(version.split('.')[0])
 }
 
-function handleAvalancheAsset(asset) {
-  return asset.split('.e')[0]
-}
-
 function handleAssetName(asset) {
-  const unwrappedAsset = unwrapped(asset) || asset
-  return chainId === '43114'
-    ? handleAvalancheAsset(unwrappedAsset)
-    : unwrappedAsset
+  return unwrapped(asset) || asset
 }
 
 function unwrapped(asset) {
