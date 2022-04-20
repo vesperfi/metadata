@@ -4,21 +4,12 @@ require('dotenv').config()
 
 const erc20Abi = require('erc-20-abi')
 const fs = require('fs')
-const sushiswapTokens = require('@sushiswap/default-token-list')
-const uniswapTokens = require('@uniswap/default-token-list')
 const Web3 = require('web3')
 
 const metadata = require('../src/vesper-metadata.json')
 const poolAbi = require('../scripts/pool-abi.json')
 
-const zapperTokens = require('./token-lists/zapper.json').tokens
-
 const should = require('chai').use(require('chai-as-promised')).should()
-
-const allTokens = []
-  .concat(uniswapTokens.tokens)
-  .concat(sushiswapTokens.tokens)
-  .concat(zapperTokens)
 
 const chains = {
   1: {
@@ -123,7 +114,6 @@ describe('Metadata', function () {
             .then(address =>
               new web3.eth.Contract(erc20Abi, address).methods.symbol().call()
             )
-            .then(handleAvalancheAsset)
             .should.eventually.equal(getWrappedToken(pool.asset)),
           contract.methods
             .VERSION()
@@ -158,6 +148,7 @@ describe('Metadata', function () {
       })
 
       it('should follow the symbol convention', function () {
+        const asset = handleAvalancheAsset(pool.asset)
         if (
           [
             '0x1e86044468b92c310800d4B350E0F83387a7097F', // vBetaUSDC
@@ -175,25 +166,12 @@ describe('Metadata', function () {
           pool.riskLevel >= 4 &&
           pool.chainId !== 137
         ) {
-          pool.symbol.should.equal(`va${pool.asset.toUpperCase()}`)
+          pool.symbol.should.equal(`va${asset.toUpperCase()}`)
         } else if (pool.type === 'grow') {
-          pool.symbol.should.equal(`v${pool.asset}`)
+          pool.symbol.should.equal(`v${asset}`)
         } else if (pool.type === 'earn') {
-          pool.symbol.should.match(new RegExp(`^ve${pool.asset}-[A-Z]+$`))
+          pool.symbol.should.match(new RegExp(`^ve${asset}-[A-Z]+$`))
         }
-      })
-
-      it('should have deposit asset support in token lists', function () {
-        if (nativeAssets.includes(pool.asset)) {
-          this.skip()
-          return
-        }
-        should.exist(
-          allTokens.find(
-            token =>
-              token.symbol === pool.asset && token.chainId === pool.chainId
-          )
-        )
       })
     })
   })

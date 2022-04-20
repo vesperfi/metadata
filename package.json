@@ -32,8 +32,6 @@
     "version": "node scripts/sync-version.js && git add ${npm_package_main}"
   },
   "devDependencies": {
-    "@sushiswap/default-token-list": "^18.3.0",
-    "@uniswap/default-token-list": "^2.1.0",
     "chai-as-promised": "^7.1.1",
     "chai": "^4.3.4",
     "dotenv": "^10.0.0",
