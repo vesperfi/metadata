@@ -57,7 +57,7 @@
       "birthblock": 14047362,
       "chainId": 1,
       "riskLevel": 4,
-      "stage": "beta",
+      "stage": "prod",
       "version": 4,
       "symbol": "veDAI-PUNK",
       "decimals": 18,
