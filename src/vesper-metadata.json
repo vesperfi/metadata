@@ -753,7 +753,7 @@
       "birthblock": 16903502,
       "chainId": 137,
       "riskLevel": 4,
-      "stage": "alpha",
+      "stage": "retired",
       "version": 3,
       "symbol": "vUSDT",
       "decimals": 18,
