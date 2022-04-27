@@ -791,6 +791,21 @@
       "type": "grow"
     },
     {
+      "name": "vaUSDC",
+      "poolName": "vaUSDC Native Pool",
+      "address": "0x4378041dceF18713CE30E36A6b9c8aA41C0dB631",
+      "asset": "USDC",
+      "birthblock": 13887382,
+      "chainId": 43114,
+      "riskLevel": 4,
+      "stage": "alpha",
+      "version": 4,
+      "symbol": "vaUSDC.n",
+      "decimals": 18,
+      "logoURI": "https://raw.githubusercontent.com/vesperfi/metadata/master/src/logos/vausdc.svg",
+      "type": "grow"
+    },
+    {
       "name": "vaQI",
       "poolName": "vaQI Pool",
       "address": "0x4b915EaB9d1dd1def39E1E8aF16CB6A28375e5F6",
