@@ -792,7 +792,7 @@
     },
     {
       "name": "vaUSDC",
-      "poolName": "vaUSDC Native Pool",
+      "poolName": "vaUSDC Pool",
       "address": "0x4378041dceF18713CE30E36A6b9c8aA41C0dB631",
       "asset": "USDC",
       "birthblock": 13887382,
@@ -800,7 +800,7 @@
       "riskLevel": 4,
       "stage": "beta",
       "version": 4,
-      "symbol": "vaUSDC.n",
+      "symbol": "vaUSDC",
       "decimals": 18,
       "logoURI": "https://raw.githubusercontent.com/vesperfi/metadata/master/src/logos/vausdc.svg",
       "type": "grow"
@@ -836,8 +836,8 @@
       "type": "grow"
     },
     {
-      "name": "vaUSDC",
-      "poolName": "vaUSDC Pool",
+      "name": "vaUSDC.e",
+      "poolName": "vaUSDC.e Pool",
       "address": "0x13AECC59A88A65F02E053eEce29d743a952D6f1e",
       "asset": "USDC.e",
       "birthblock": 10174004,
@@ -845,14 +845,14 @@
       "riskLevel": 4,
       "stage": "prod",
       "version": 4,
-      "symbol": "vaUSDC",
+      "symbol": "vaUSDC.e",
       "decimals": 18,
       "logoURI": "https://raw.githubusercontent.com/vesperfi/metadata/master/src/logos/vausdc.svg",
       "type": "grow"
     },
     {
-      "name": "vaWBTC",
-      "poolName": "vaWBTC Pool",
+      "name": "vaWBTC.e",
+      "poolName": "vaWBTC.e Pool",
       "address": "0xba3Fb2277c7b33D1C3E1b558cf8060bc7443b13d",
       "asset": "WBTC.e",
       "birthblock": 10171078,
@@ -860,7 +860,7 @@
       "riskLevel": 4,
       "stage": "prod",
       "version": 4,
-      "symbol": "vaWBTC",
+      "symbol": "vaWBTC.e",
       "decimals": 18,
       "logoURI": "https://raw.githubusercontent.com/vesperfi/metadata/master/src/logos/vawbtc.svg",
       "type": "grow"
@@ -881,8 +881,8 @@
       "type": "grow"
     },
     {
-      "name": "vaWETH",
-      "poolName": "vaWETH Pool",
+      "name": "vaWETH.e",
+      "poolName": "vaWETH.e Pool",
       "address": "0x2B6c40Ef15Db0D78D08A7D1b4E12d57E88a3e324",
       "asset": "WETH.e",
       "birthblock": 9822229,
@@ -890,14 +890,14 @@
       "riskLevel": 4,
       "stage": "prod",
       "version": 4,
-      "symbol": "vaWETH",
+      "symbol": "vaWETH.e",
       "decimals": 18,
       "logoURI": "https://raw.githubusercontent.com/vesperfi/metadata/master/src/logos/vaweth.svg",
       "type": "grow"
     },
     {
-      "name": "vaDAI",
-      "poolName": "vaDAI Pool",
+      "name": "vaDAI.e",
+      "poolName": "vaDAI.e Pool",
       "address": "0x5323F445A8665239222b117aE095423a238F5706",
       "asset": "DAI.e",
       "birthblock": 9452892,
@@ -905,7 +905,7 @@
       "riskLevel": 4,
       "stage": "prod",
       "version": 4,
-      "symbol": "vaDAI",
+      "symbol": "vaDAI.e",
       "decimals": 18,
       "logoURI": "https://raw.githubusercontent.com/vesperfi/metadata/master/src/logos/vadai.svg",
       "type": "grow"
