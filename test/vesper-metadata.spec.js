@@ -41,10 +41,12 @@ const wrappedAssetsMap = Object.values(chains).reduce(
 
 const getWrappedToken = asset => wrappedAssetsMap[asset] || asset
 
-const handleAvalancheAsset = asset => asset.split('.e')[0]
+const handleAvalancheAsset = asset => asset.split('.')[0]
 
 describe('Metadata', function () {
   metadata.pools.forEach(function (pool) {
+    const asset = handleAvalancheAsset(pool.asset)
+    const poolSymbol = handleAvalancheAsset(pool.symbol)
     describe(`Pool ${pool.name} (${pool.address})`, function () {
       it('should have proper structure', function () {
         pool.should.have.a.property('name').that.is.a('string')
@@ -81,7 +83,7 @@ describe('Metadata', function () {
           this.skip()
           return
         }
-        const filename = pool.symbol.toLowerCase().replace('beta', '')
+        const filename = poolSymbol.toLowerCase().replace('beta', '')
         const repoUrl = 'https://raw.githubusercontent.com/vesperfi/metadata'
         pool.logoURI.should.equal(
           `${repoUrl}/master/src/logos/${filename}.svg`,
@@ -102,6 +104,7 @@ describe('Metadata', function () {
           contract.methods
             .name()
             .call()
+            .then(name => name.replace('Native ', ''))
             .should.eventually.equal(
               `${pool.name.replace(/-v[0-9]+$/, '')} ${
                 pool.name.startsWith('ve') ? 'Earn ' : ''
@@ -144,11 +147,10 @@ describe('Metadata', function () {
           this.skip()
           return
         }
-        pool.name.should.equal(pool.symbol)
+        pool.name.should.equal(poolSymbol)
       })
 
       it('should follow the symbol convention', function () {
-        const asset = handleAvalancheAsset(pool.asset)
         if (
           [
             '0x1e86044468b92c310800d4B350E0F83387a7097F', // vBetaUSDC
@@ -166,11 +168,11 @@ describe('Metadata', function () {
           pool.riskLevel >= 4 &&
           pool.chainId !== 137
         ) {
-          pool.symbol.should.equal(`va${asset.toUpperCase()}`)
+          poolSymbol.should.equal(`va${asset.toUpperCase()}`)
         } else if (pool.type === 'grow') {
-          pool.symbol.should.equal(`v${asset}`)
+          poolSymbol.should.equal(`v${asset}`)
         } else if (pool.type === 'earn') {
-          pool.symbol.should.match(new RegExp(`^ve${asset}-[A-Z]+$`))
+          poolSymbol.should.match(new RegExp(`^ve${asset}-[A-Z]+$`))
         }
       })
     })
