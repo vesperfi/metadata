@@ -41,12 +41,8 @@ const wrappedAssetsMap = Object.values(chains).reduce(
 
 const getWrappedToken = asset => wrappedAssetsMap[asset] || asset
 
-const handleAvalancheAsset = asset => asset.split('.')[0]
-
 describe('Metadata', function () {
   metadata.pools.forEach(function (pool) {
-    const asset = handleAvalancheAsset(pool.asset)
-    const poolSymbol = handleAvalancheAsset(pool.symbol)
     describe(`Pool ${pool.name} (${pool.address})`, function () {
       it('should have proper structure', function () {
         pool.should.have.a.property('name').that.is.a('string')
@@ -83,7 +79,10 @@ describe('Metadata', function () {
           this.skip()
           return
         }
-        const filename = poolSymbol.toLowerCase().replace('beta', '')
+        const filename = pool.symbol
+          .toLowerCase()
+          .replace('beta', '')
+          .split('.')[0]
         const repoUrl = 'https://raw.githubusercontent.com/vesperfi/metadata'
         pool.logoURI.should.equal(
           `${repoUrl}/master/src/logos/${filename}.svg`,
@@ -93,6 +92,19 @@ describe('Metadata', function () {
       })
 
       it('should match contract data', function () {
+        if (
+          [
+            '0x4378041dceF18713CE30E36A6b9c8aA41C0dB631', // AVA vaUSDC Native
+            '0x13AECC59A88A65F02E053eEce29d743a952D6f1e', // AVA vaUSDC.e
+            '0xba3Fb2277c7b33D1C3E1b558cf8060bc7443b13d', // AVA vaWBTC.e
+            '0x2B6c40Ef15Db0D78D08A7D1b4E12d57E88a3e324', // AVA vaWETH.e
+            '0x5323F445A8665239222b117aE095423a238F5706' // AVA vaDAI.e
+          ].includes(pool.address)
+        ) {
+          this.skip()
+          return
+        }
+
         this.slow(3000)
         this.timeout(5000)
 
@@ -147,7 +159,7 @@ describe('Metadata', function () {
           this.skip()
           return
         }
-        pool.name.should.equal(poolSymbol)
+        pool.name.should.equal(pool.symbol)
       })
 
       it('should follow the symbol convention', function () {
@@ -168,11 +180,13 @@ describe('Metadata', function () {
           pool.riskLevel >= 4 &&
           pool.chainId !== 137
         ) {
-          poolSymbol.should.equal(`va${asset.toUpperCase()}`)
+          let splitedPoolAsset = pool.asset.split('.')
+          splitedPoolAsset[0] = splitedPoolAsset[0].toUpperCase()
+          pool.symbol.should.equal(`va${splitedPoolAsset.join('.')}`)
         } else if (pool.type === 'grow') {
-          poolSymbol.should.equal(`v${asset}`)
+          pool.symbol.should.equal(`v${pool.asset}`)
         } else if (pool.type === 'earn') {
-          poolSymbol.should.match(new RegExp(`^ve${asset}-[A-Z]+$`))
+          pool.symbol.should.match(new RegExp(`^ve${pool.asset}-[A-Z]+$`))
         }
       })
     })
