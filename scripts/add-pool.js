@@ -116,6 +116,7 @@ Promise.all([
 ])
   .then(function ([poolName, asset, birthblock, version, symbol, decimals]) {
     const name = poolName.split(' ')[0]
+    const imageName = name.toLowerCase().split('.')[0]
     const pool = {
       name,
       poolName,
@@ -133,7 +134,7 @@ Promise.all([
       version,
       symbol,
       decimals,
-      logoURI: `https://raw.githubusercontent.com/vesperfi/metadata/master/src/logos/${name.toLowerCase()}.svg`,
+      logoURI: `https://raw.githubusercontent.com/vesperfi/metadata/master/src/logos/${imageName}.svg`,
       type: poolName.startsWith('ve') ? 'earn' : 'grow'
     }
 
