@@ -813,7 +813,7 @@
       "birthblock": 13671493,
       "chainId": 43114,
       "riskLevel": 4,
-      "stage": "beta",
+      "stage": "prod",
       "version": 4,
       "symbol": "vaQI",
       "decimals": 18,
