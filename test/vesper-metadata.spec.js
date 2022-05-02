@@ -92,19 +92,6 @@ describe('Metadata', function () {
       })
 
       it('should match contract data', function () {
-        if (
-          [
-            '0x4378041dceF18713CE30E36A6b9c8aA41C0dB631', // AVA vaUSDC Native
-            '0x13AECC59A88A65F02E053eEce29d743a952D6f1e', // AVA vaUSDC.e
-            '0xba3Fb2277c7b33D1C3E1b558cf8060bc7443b13d', // AVA vaWBTC.e
-            '0x2B6c40Ef15Db0D78D08A7D1b4E12d57E88a3e324', // AVA vaWETH.e
-            '0x5323F445A8665239222b117aE095423a238F5706' // AVA vaDAI.e
-          ].includes(pool.address)
-        ) {
-          this.skip()
-          return
-        }
-
         this.slow(3000)
         this.timeout(5000)
 
@@ -116,7 +103,6 @@ describe('Metadata', function () {
           contract.methods
             .name()
             .call()
-            .then(name => name.replace('Native ', ''))
             .should.eventually.equal(
               `${pool.name.replace(/-v[0-9]+$/, '')} ${
                 pool.name.startsWith('ve') ? 'Earn ' : ''
