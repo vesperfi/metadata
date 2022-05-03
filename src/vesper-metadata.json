@@ -237,7 +237,7 @@
       "birthblock": 13641116,
       "chainId": 1,
       "riskLevel": 4,
-      "stage": "orbit",
+      "stage": "prod",
       "version": 3,
       "symbol": "vaFRAX",
       "decimals": 18,
