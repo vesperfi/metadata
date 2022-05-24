@@ -20,6 +20,21 @@
   ],
   "pools": [
     {
+      "name": "veUSDC-LMR",
+      "poolName": "veUSDC-LMR Earn Pool",
+      "address": "0xA7C21fD948c44830541b8561B31ABDe09CC32719",
+      "asset": "USDC",
+      "birthblock": 14837480,
+      "chainId": 1,
+      "riskLevel": 4,
+      "stage": "beta",
+      "version": 5,
+      "symbol": "veUSDC-LMR",
+      "decimals": 18,
+      "logoURI": "https://raw.githubusercontent.com/vesperfi/metadata/master/src/logos/veusdc-lmr.svg",
+      "type": "earn"
+    },
+    {
       "name": "vaAPE",
       "poolName": "vaAPE Pool",
       "address": "0xA5Bc6eB0A7E6738e2F2Ac6c92280b32771aC52Ad",
