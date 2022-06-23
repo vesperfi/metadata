@@ -147,7 +147,7 @@
       "birthblock": 13779909,
       "chainId": 1,
       "riskLevel": 4,
-      "stage": "beta",
+      "stage": "prod",
       "version": 5,
       "symbol": "veDAI-VSP",
       "decimals": 18,
