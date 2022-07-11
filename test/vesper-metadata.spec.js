@@ -57,7 +57,7 @@ describe('Metadata', function () {
         pool.should.have.a
           .property('stage')
           .that.is.a('string')
-          .that.match(/^(alpha|beta|orbit|prod|retired)$/)
+          .that.match(/^(alpha|back|beta|orbit|prod|retired)$/)
         pool.should.have.a.property('symbol').that.is.a('string')
         pool.should.have.a.property('decimals').that.is.a('number')
         pool.should.have.a.property('logoURI').that.is.a('string')
