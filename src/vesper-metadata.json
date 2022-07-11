@@ -18,6 +18,18 @@
       "chainId": 43114
     }
   ],
+  "lockedVSP": [
+    {
+      "chainId": 1,
+      "address": "0xBbc50daFd976d4Bd7854a8329646FB88d7fA1018"
+    }
+  ],
+  "lockedVSP721": [
+    {
+      "chainId": 1,
+      "address": "0x9b62D5e13250D41cC00b61c6006d413Ce5f48428"
+    }
+  ],
   "pools": [
     {
       "name": "veUSDC-LMR",
