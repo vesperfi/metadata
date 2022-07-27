@@ -32,6 +32,21 @@
   ],
   "pools": [
     {
+      "name": "vaSTETH",
+      "poolName": "vaSTETH Pool",
+      "address": "0x4Dbe3f01aBe271D3E65432c74851625a8c30Aa7B",
+      "asset": "stETH",
+      "birthblock": 15219794,
+      "chainId": 1,
+      "riskLevel": 4,
+      "stage": "beta",
+      "version": 5,
+      "symbol": "vaSTETH",
+      "decimals": 18,
+      "logoURI": "https://raw.githubusercontent.com/vesperfi/metadata/master/src/logos/vasteth.svg",
+      "type": "grow"
+    },
+    {
       "name": "vWBTC",
       "poolName": "vWBTC Pool",
       "address": "0xd25ee8509302bD23dc11d1Ab867FE995CDD7b531",
