@@ -32,6 +32,21 @@
   ],
   "pools": [
     {
+      "name": "veFRAX-FRAXBP",
+      "poolName": "veFRAX-FRAXBP Earn Pool",
+      "address": "0xecd7790FD35e5f529a63cf3E058b555F2Ff23234",
+      "asset": "FRAX",
+      "birthblock": 15352230,
+      "chainId": 1,
+      "riskLevel": 4,
+      "stage": "beta",
+      "version": 5,
+      "symbol": "veFRAX-FRAXBP",
+      "decimals": 18,
+      "logoURI": "https://raw.githubusercontent.com/vesperfi/metadata/master/src/logos/vefrax-fraxbp.svg",
+      "type": "earn"
+    },
+    {
       "name": "vaSTETH",
       "poolName": "vaSTETH Pool",
       "address": "0x4Dbe3f01aBe271D3E65432c74851625a8c30Aa7B",
