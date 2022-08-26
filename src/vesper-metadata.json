@@ -54,7 +54,7 @@
       "birthblock": 15219794,
       "chainId": 1,
       "riskLevel": 4,
-      "stage": "beta",
+      "stage": "prod",
       "version": 5,
       "symbol": "vaSTETH",
       "decimals": 18,
