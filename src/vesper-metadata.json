@@ -39,7 +39,7 @@
       "birthblock": 15352230,
       "chainId": 1,
       "riskLevel": 4,
-      "stage": "beta",
+      "stage": "prod",
       "version": 5,
       "symbol": "veFRAX-FRAXBP",
       "decimals": 18,
