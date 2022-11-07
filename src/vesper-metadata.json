@@ -385,7 +385,7 @@
       "chainId": 1,
       "riskLevel": 4,
       "stage": "prod",
-      "version": 4,
+      "version": 5,
       "symbol": "veWBTC-DAI",
       "decimals": 18,
       "logoURI": "https://raw.githubusercontent.com/vesperfi/metadata/master/src/logos/vewbtc-dai.svg",
@@ -790,7 +790,7 @@
     {
       "name": "vaBNB",
       "poolName": "vaBNB Pool",
-      "address ": "0xdAa2a8AF96f8Df51ED989E9D1fd3F86DF1EE882e",
+      "address": "0xdAa2a8AF96f8Df51ED989E9D1fd3F86DF1EE882e",
       "asset": "BNB",
       "birthblock": 22517016,
       "chainId": 56,
