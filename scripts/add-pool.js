@@ -24,6 +24,8 @@ function getNodeUrl() {
       return process.env.POLYGON_NODE_URL
     case '43114':
       return process.env.AVALANCHE_NODE_URL
+    case '56':
+      return process.env.BNB_NODE_URL
     default:
       throw new Error(`Missing node URL for chain ${chainId}`)
   }
@@ -37,6 +39,8 @@ function getExplorerUrl() {
       return 'https://api.polygonscan.com/api'
     case '43114':
       return 'https://api.snowtrace.io/api'
+    case '56':
+      return 'https://api.bscscan.com/api'
     default:
       throw new Error(`Missing explorer URL for chain ${chainId}`)
   }
@@ -88,7 +92,8 @@ function unwrapped(asset) {
   return {
     'WAVAX:43114': 'AVAX',
     'WETH:1': 'ETH',
-    'WMATIC:137': 'MATIC'
+    'WMATIC:137': 'MATIC',
+    'WBNB:56': 'BNB'
   }[`${asset}:${chainId}`]
 }
 

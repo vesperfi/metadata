@@ -1,3 +1,6 @@
 .env*
 node_modules
 src/vesper.tokenlist.json
+
+# webstorm
+.idea
