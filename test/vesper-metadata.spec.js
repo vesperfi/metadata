@@ -26,6 +26,11 @@ const chains = {
     nativeAsset: 'AVAX',
     nodeUrl: process.env.AVALANCHE_NODE_URL,
     wrappedNativeAsset: 'WAVAX'
+  },
+  56: {
+    nativeAsset: 'BNB',
+    nodeUrl: process.env.BNB_NODE_URL,
+    wrappedNativeAsset: 'WBNB'
   }
 }
 
