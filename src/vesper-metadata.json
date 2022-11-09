@@ -788,6 +788,21 @@
       "type": "grow"
     },
     {
+      "name": "vaBUSD",
+      "poolName": "vaBUSD Pool",
+      "address": "0xa77f218cf8B28BddB2039eC1Cd2986548aecE76b",
+      "asset": "BUSD",
+      "birthblock": 22539555,
+      "chainId": 56,
+      "riskLevel": 4,
+      "stage": "alpha",
+      "version": 5,
+      "symbol": "vaBUSD",
+      "decimals": 18,
+      "logoURI": "https://raw.githubusercontent.com/vesperfi/metadata/master/src/logos/vabusd.svg",
+      "type": "grow"
+    },
+    {
       "name": "vaBNB",
       "poolName": "vaBNB Pool",
       "address": "0xdAa2a8AF96f8Df51ED989E9D1fd3F86DF1EE882e",
