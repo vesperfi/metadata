@@ -32,6 +32,21 @@
   ],
   "pools": [
     {
+      "name": "vaRETH",
+      "poolName": "vaRETH Pool",
+      "address": "0xDD9F61a85fFE73E41eF889817972f0B0AaE6D6Dd",
+      "asset": "rETH",
+      "birthblock": 16541656,
+      "chainId": 1,
+      "riskLevel": 4,
+      "stage": "beta",
+      "version": 5,
+      "symbol": "vaRETH",
+      "decimals": 18,
+      "logoURI": "https://raw.githubusercontent.com/vesperfi/metadata/master/src/logos/vareth.svg",
+      "type": "grow"
+    },
+    {
       "name": "veFRAX-FRAXBP",
       "poolName": "veFRAX-FRAXBP Earn Pool",
       "address": "0xecd7790FD35e5f529a63cf3E058b555F2Ff23234",
