@@ -39,7 +39,7 @@
       "birthblock": 16541656,
       "chainId": 1,
       "riskLevel": 4,
-      "stage": "beta",
+      "stage": "prod",
       "version": 5,
       "symbol": "vaRETH",
       "decimals": 18,
