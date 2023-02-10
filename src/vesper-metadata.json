@@ -44,7 +44,14 @@
       "symbol": "vaRETH",
       "decimals": 18,
       "logoURI": "https://raw.githubusercontent.com/vesperfi/metadata/master/src/logos/vareth.svg",
-      "type": "grow"
+      "type": "grow",
+      "collateral": {
+        "address": "0xae78736Cd615f374D3085123A210448E74Fc6393",
+        "decimals": 18,
+        "symbol": "rETH",
+        "type": "compounding",
+        "defiLlamaPoolId": "d4b3c522-6127-4b89-bedf-83641cdcd2eb"
+      }
     },
     {
       "name": "veFRAX-FRAXBP",
@@ -59,7 +66,13 @@
       "symbol": "veFRAX-FRAXBP",
       "decimals": 18,
       "logoURI": "https://raw.githubusercontent.com/vesperfi/metadata/master/src/logos/vefrax-fraxbp.svg",
-      "type": "earn"
+      "type": "earn",
+      "collateral": {
+        "address": "0x853d955aCEf822Db058eb8505911ED77F175b99e",
+        "decimals": 18,
+        "symbol": "FRAX",
+        "type": "normal"
+      }
     },
     {
       "name": "vaSTETH",
@@ -74,7 +87,14 @@
       "symbol": "vaSTETH",
       "decimals": 18,
       "logoURI": "https://raw.githubusercontent.com/vesperfi/metadata/master/src/logos/vasteth.svg",
-      "type": "grow"
+      "type": "grow",
+      "collateral": {
+        "address": "0xae7ab96520DE3A18E5e111B5EaAb095312D7fE84",
+        "decimals": 18,
+        "symbol": "stETH",
+        "type": "rebasing",
+        "defiLlamaPoolId": "747c1d2a-c668-4682-b9f9-296708a3dd90"
+      }
     },
     {
       "name": "vWBTC",
@@ -89,7 +109,13 @@
       "symbol": "vWBTC",
       "decimals": 18,
       "logoURI": "https://raw.githubusercontent.com/vesperfi/metadata/master/src/logos/vwbtc.svg",
-      "type": "grow"
+      "type": "grow",
+      "collateral": {
+        "address": "0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599",
+        "decimals": 8,
+        "symbol": "WBTC",
+        "type": "normal"
+      }
     },
     {
       "name": "vETH",
@@ -104,7 +130,13 @@
       "symbol": "vETH",
       "decimals": 18,
       "logoURI": "https://raw.githubusercontent.com/vesperfi/metadata/master/src/logos/veth.svg",
-      "type": "grow"
+      "type": "grow",
+      "collateral": {
+        "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+        "decimals": 18,
+        "symbol": "ETH",
+        "type": "normal"
+      }
     },
     {
       "name": "vUSDC",
@@ -119,7 +151,13 @@
       "symbol": "vUSDC",
       "decimals": 18,
       "logoURI": "https://raw.githubusercontent.com/vesperfi/metadata/master/src/logos/vusdc.svg",
-      "type": "grow"
+      "type": "grow",
+      "collateral": {
+        "address": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+        "decimals": 6,
+        "symbol": "USDC",
+        "type": "normal"
+      }
     },
     {
       "name": "vLINK",
@@ -134,7 +172,13 @@
       "symbol": "vLINK",
       "decimals": 18,
       "logoURI": "https://raw.githubusercontent.com/vesperfi/metadata/master/src/logos/vlink.svg",
-      "type": "grow"
+      "type": "grow",
+      "collateral": {
+        "address": "0x514910771AF9Ca656af840dff83E8264EcF986CA",
+        "decimals": 18,
+        "symbol": "LINK",
+        "type": "normal"
+      }
     },
     {
       "name": "veUSDC-LMR",
@@ -150,7 +194,13 @@
       "symbol": "veUSDC-LMR",
       "decimals": 18,
       "logoURI": "https://raw.githubusercontent.com/vesperfi/metadata/master/src/logos/veusdc-lmr.svg",
-      "type": "earn"
+      "type": "earn",
+      "collateral": {
+        "address": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+        "decimals": 6,
+        "symbol": "USDC",
+        "type": "normal"
+      }
     },
     {
       "name": "vaAPE",
@@ -165,7 +215,13 @@
       "symbol": "vaAPE",
       "decimals": 18,
       "logoURI": "https://raw.githubusercontent.com/vesperfi/metadata/master/src/logos/vaape.svg",
-      "type": "grow"
+      "type": "grow",
+      "collateral": {
+        "address": "0x4d224452801ACEd8B2F0aebE155379bb5D594381",
+        "decimals": 18,
+        "symbol": "APE",
+        "type": "normal"
+      }
     },
     {
       "name": "vaMUSD",
@@ -180,7 +236,13 @@
       "symbol": "vaMUSD",
       "decimals": 18,
       "logoURI": "https://raw.githubusercontent.com/vesperfi/metadata/master/src/logos/vamusd.svg",
-      "type": "grow"
+      "type": "grow",
+      "collateral": {
+        "address": "0xe2f2a5C287993345a840Db3B0845fbC70f5935a5",
+        "decimals": 18,
+        "symbol": "mUSD",
+        "type": "normal"
+      }
     },
     {
       "name": "veDAI-PUNK",
@@ -196,7 +258,13 @@
       "symbol": "veDAI-PUNK",
       "decimals": 18,
       "logoURI": "https://raw.githubusercontent.com/vesperfi/metadata/master/src/logos/vedai-punk.svg",
-      "type": "earn"
+      "type": "earn",
+      "collateral": {
+        "address": "0x6B175474E89094C44Da98b954EedeAC495271d0F",
+        "decimals": 18,
+        "symbol": "DAI",
+        "type": "normal"
+      }
     },
     {
       "name": "veDAI-SHIB",
@@ -212,7 +280,13 @@
       "symbol": "veDAI-SHIB",
       "decimals": 18,
       "logoURI": "https://raw.githubusercontent.com/vesperfi/metadata/master/src/logos/vedai-shib.svg",
-      "type": "earn"
+      "type": "earn",
+      "collateral": {
+        "address": "0x6B175474E89094C44Da98b954EedeAC495271d0F",
+        "decimals": 18,
+        "symbol": "DAI",
+        "type": "normal"
+      }
     },
     {
       "name": "veLINK-DAI",
@@ -228,7 +302,13 @@
       "symbol": "veLINK-DAI",
       "decimals": 18,
       "logoURI": "https://raw.githubusercontent.com/vesperfi/metadata/master/src/logos/velink-dai.svg",
-      "type": "earn"
+      "type": "earn",
+      "collateral": {
+        "address": "0x514910771AF9Ca656af840dff83E8264EcF986CA",
+        "decimals": 18,
+        "symbol": "LINK",
+        "type": "normal"
+      }
     },
     {
       "name": "veDAI-LINK",
@@ -243,7 +323,13 @@
       "symbol": "veDAI-LINK",
       "decimals": 18,
       "logoURI": "https://raw.githubusercontent.com/vesperfi/metadata/master/src/logos/vedai-link.svg",
-      "type": "earn"
+      "type": "earn",
+      "collateral": {
+        "address": "0x6B175474E89094C44Da98b954EedeAC495271d0F",
+        "decimals": 18,
+        "symbol": "DAI",
+        "type": "normal"
+      }
     },
     {
       "name": "vaLINK",
@@ -258,7 +344,13 @@
       "symbol": "vaLINK",
       "decimals": 18,
       "logoURI": "https://raw.githubusercontent.com/vesperfi/metadata/master/src/logos/valink.svg",
-      "type": "grow"
+      "type": "grow",
+      "collateral": {
+        "address": "0x514910771AF9Ca656af840dff83E8264EcF986CA",
+        "decimals": 18,
+        "symbol": "LINK",
+        "type": "normal"
+      }
     },
     {
       "name": "veDAI-VSP",
@@ -273,7 +365,13 @@
       "symbol": "veDAI-VSP",
       "decimals": 18,
       "logoURI": "https://raw.githubusercontent.com/vesperfi/metadata/master/src/logos/vedai-vsp.svg",
-      "type": "earn"
+      "type": "earn",
+      "collateral": {
+        "address": "0x6B175474E89094C44Da98b954EedeAC495271d0F",
+        "decimals": 18,
+        "symbol": "DAI",
+        "type": "normal"
+      }
     },
     {
       "name": "veDAI-DPI",
@@ -289,7 +387,13 @@
       "symbol": "veDAI-DPI",
       "decimals": 18,
       "logoURI": "https://raw.githubusercontent.com/vesperfi/metadata/master/src/logos/vedai-dpi.svg",
-      "type": "earn"
+      "type": "earn",
+      "collateral": {
+        "address": "0x6B175474E89094C44Da98b954EedeAC495271d0F",
+        "decimals": 18,
+        "symbol": "DAI",
+        "type": "normal"
+      }
     },
     {
       "name": "vaUSDC",
@@ -304,7 +408,13 @@
       "symbol": "vaUSDC",
       "decimals": 18,
       "logoURI": "https://raw.githubusercontent.com/vesperfi/metadata/master/src/logos/vausdc.svg",
-      "type": "grow"
+      "type": "grow",
+      "collateral": {
+        "address": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+        "decimals": 6,
+        "symbol": "USDC",
+        "type": "normal"
+      }
     },
     {
       "name": "veDAI-ETH",
@@ -319,7 +429,13 @@
       "symbol": "veDAI-ETH",
       "decimals": 18,
       "logoURI": "https://raw.githubusercontent.com/vesperfi/metadata/master/src/logos/vedai-eth.svg",
-      "type": "earn"
+      "type": "earn",
+      "collateral": {
+        "address": "0x6B175474E89094C44Da98b954EedeAC495271d0F",
+        "decimals": 18,
+        "symbol": "DAI",
+        "type": "normal"
+      }
     },
     {
       "name": "veDAI-WBTC",
@@ -334,7 +450,13 @@
       "symbol": "veDAI-WBTC",
       "decimals": 18,
       "logoURI": "https://raw.githubusercontent.com/vesperfi/metadata/master/src/logos/vedai-wbtc.svg",
-      "type": "earn"
+      "type": "earn",
+      "collateral": {
+        "address": "0x6B175474E89094C44Da98b954EedeAC495271d0F",
+        "decimals": 18,
+        "symbol": "DAI",
+        "type": "normal"
+      }
     },
     {
       "name": "vaALUSD",
@@ -350,7 +472,13 @@
       "symbol": "vaALUSD",
       "decimals": 18,
       "logoURI": "https://raw.githubusercontent.com/vesperfi/metadata/master/src/logos/vaalusd.svg",
-      "type": "grow"
+      "type": "grow",
+      "collateral": {
+        "address": "0xBC6DA0FE9aD5f3b0d58160288917AA56653660E9",
+        "decimals": 18,
+        "symbol": "alUSD",
+        "type": "normal"
+      }
     },
     {
       "name": "vaDPI",
@@ -366,7 +494,13 @@
       "symbol": "vaDPI",
       "decimals": 18,
       "logoURI": "https://raw.githubusercontent.com/vesperfi/metadata/master/src/logos/vadpi.svg",
-      "type": "grow"
+      "type": "grow",
+      "collateral": {
+        "address": "0x1494CA1F11D487c2bBe4543E90080AeBa4BA3C2b",
+        "decimals": 18,
+        "symbol": "DPI",
+        "type": "normal"
+      }
     },
     {
       "name": "vaFRAX",
@@ -381,7 +515,13 @@
       "symbol": "vaFRAX",
       "decimals": 18,
       "logoURI": "https://raw.githubusercontent.com/vesperfi/metadata/master/src/logos/vafrax.svg",
-      "type": "grow"
+      "type": "grow",
+      "collateral": {
+        "address": "0x853d955aCEf822Db058eb8505911ED77F175b99e",
+        "decimals": 18,
+        "symbol": "FRAX",
+        "type": "normal"
+      }
     },
     {
       "name": "vaFEI",
@@ -397,7 +537,13 @@
       "symbol": "vaFEI",
       "decimals": 18,
       "logoURI": "https://raw.githubusercontent.com/vesperfi/metadata/master/src/logos/vafei.svg",
-      "type": "grow"
+      "type": "grow",
+      "collateral": {
+        "address": "0x956F47F50A910163D8BF957Cf5846D573E7f87CA",
+        "decimals": 18,
+        "symbol": "FEI",
+        "type": "normal"
+      }
     },
     {
       "name": "veWBTC-DAI",
@@ -412,7 +558,13 @@
       "symbol": "veWBTC-DAI",
       "decimals": 18,
       "logoURI": "https://raw.githubusercontent.com/vesperfi/metadata/master/src/logos/vewbtc-dai.svg",
-      "type": "earn"
+      "type": "earn",
+      "collateral": {
+        "address": "0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599",
+        "decimals": 8,
+        "symbol": "WBTC",
+        "type": "normal"
+      }
     },
     {
       "name": "vaWBTC",
@@ -427,7 +579,13 @@
       "symbol": "vaWBTC",
       "decimals": 18,
       "logoURI": "https://raw.githubusercontent.com/vesperfi/metadata/master/src/logos/vawbtc.svg",
-      "type": "grow"
+      "type": "grow",
+      "collateral": {
+        "address": "0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599",
+        "decimals": 8,
+        "symbol": "WBTC",
+        "type": "normal"
+      }
     },
     {
       "name": "vfrsDAI",
@@ -442,7 +600,13 @@
       "symbol": "vfrsDAI",
       "decimals": 18,
       "logoURI": "https://raw.githubusercontent.com/vesperfi/metadata/master/src/logos/vfrsdai.svg",
-      "type": "vfr-s"
+      "type": "vfr-s",
+      "collateral": {
+        "address": "0x6B175474E89094C44Da98b954EedeAC495271d0F",
+        "decimals": 18,
+        "symbol": "DAI",
+        "type": "normal"
+      }
     },
     {
       "name": "vfrcDAI",
@@ -457,7 +621,13 @@
       "symbol": "vfrcDAI",
       "decimals": 18,
       "logoURI": "https://raw.githubusercontent.com/vesperfi/metadata/master/src/logos/vfrcdai.svg",
-      "type": "vfr-c"
+      "type": "vfr-c",
+      "collateral": {
+        "address": "0x6B175474E89094C44Da98b954EedeAC495271d0F",
+        "decimals": 18,
+        "symbol": "DAI",
+        "type": "normal"
+      }
     },
     {
       "name": "vaETH",
@@ -472,7 +642,13 @@
       "symbol": "vaETH",
       "decimals": 18,
       "logoURI": "https://raw.githubusercontent.com/vesperfi/metadata/master/src/logos/vaeth.svg",
-      "type": "grow"
+      "type": "grow",
+      "collateral": {
+        "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+        "decimals": 18,
+        "symbol": "ETH",
+        "type": "normal"
+      }
     },
     {
       "name": "vDAI",
@@ -487,7 +663,13 @@
       "symbol": "vDAI",
       "decimals": 18,
       "logoURI": "https://raw.githubusercontent.com/vesperfi/metadata/master/src/logos/vdai.svg",
-      "type": "grow"
+      "type": "grow",
+      "collateral": {
+        "address": "0x6B175474E89094C44Da98b954EedeAC495271d0F",
+        "decimals": 18,
+        "symbol": "DAI",
+        "type": "normal"
+      }
     },
     {
       "name": "veETH-DAI",
@@ -502,7 +684,13 @@
       "symbol": "veETH-DAI",
       "decimals": 18,
       "logoURI": "https://raw.githubusercontent.com/vesperfi/metadata/master/src/logos/veeth-dai.svg",
-      "type": "earn"
+      "type": "earn",
+      "collateral": {
+        "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+        "decimals": 18,
+        "symbol": "ETH",
+        "type": "normal"
+      }
     },
     {
       "name": "vaDAI",
@@ -517,7 +705,13 @@
       "symbol": "vaDAI",
       "decimals": 18,
       "logoURI": "https://raw.githubusercontent.com/vesperfi/metadata/master/src/logos/vadai.svg",
-      "type": "grow"
+      "type": "grow",
+      "collateral": {
+        "address": "0x6B175474E89094C44Da98b954EedeAC495271d0F",
+        "decimals": 18,
+        "symbol": "DAI",
+        "type": "normal"
+      }
     },
     {
       "name": "vDAI",
@@ -532,7 +726,13 @@
       "symbol": "vDAI",
       "decimals": 18,
       "logoURI": "https://raw.githubusercontent.com/vesperfi/metadata/master/src/logos/vdai.svg",
-      "type": "grow"
+      "type": "grow",
+      "collateral": {
+        "address": "0x6B175474E89094C44Da98b954EedeAC495271d0F",
+        "decimals": 18,
+        "symbol": "DAI",
+        "type": "normal"
+      }
     },
     {
       "name": "vUSDT",
@@ -548,7 +748,13 @@
       "symbol": "vUSDT",
       "decimals": 18,
       "logoURI": "https://raw.githubusercontent.com/vesperfi/metadata/master/src/logos/vusdt.svg",
-      "type": "grow"
+      "type": "grow",
+      "collateral": {
+        "address": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
+        "decimals": 6,
+        "symbol": "USDT",
+        "type": "normal"
+      }
     },
     {
       "name": "vUNI",
@@ -563,7 +769,13 @@
       "symbol": "vUNI",
       "decimals": 18,
       "logoURI": "https://raw.githubusercontent.com/vesperfi/metadata/master/src/logos/vuni.svg",
-      "type": "grow"
+      "type": "grow",
+      "collateral": {
+        "address": "0x1f9840a85d5aF5bf1D1762F925BDADdC4201F984",
+        "decimals": 18,
+        "symbol": "UNI",
+        "type": "normal"
+      }
     },
     {
       "name": "vUSDT",
@@ -578,7 +790,13 @@
       "symbol": "vUSDT",
       "decimals": 18,
       "logoURI": "https://raw.githubusercontent.com/vesperfi/metadata/master/src/logos/vusdt.svg",
-      "type": "grow"
+      "type": "grow",
+      "collateral": {
+        "address": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
+        "decimals": 6,
+        "symbol": "USDT",
+        "type": "normal"
+      }
     },
     {
       "name": "vUNI",
@@ -593,7 +811,13 @@
       "symbol": "vUNI",
       "decimals": 18,
       "logoURI": "https://raw.githubusercontent.com/vesperfi/metadata/master/src/logos/vuni.svg",
-      "type": "grow"
+      "type": "grow",
+      "collateral": {
+        "address": "0x1f9840a85d5aF5bf1D1762F925BDADdC4201F984",
+        "decimals": 18,
+        "symbol": "UNI",
+        "type": "normal"
+      }
     },
     {
       "name": "vUSDC-v3",
@@ -609,7 +833,13 @@
       "symbol": "vUSDC",
       "decimals": 18,
       "logoURI": "https://raw.githubusercontent.com/vesperfi/metadata/master/src/logos/vusdc.svg",
-      "type": "grow"
+      "type": "grow",
+      "collateral": {
+        "address": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+        "decimals": 6,
+        "symbol": "USDC",
+        "type": "normal"
+      }
     },
     {
       "name": "vUSDC-v2",
@@ -623,7 +853,13 @@
       "symbol": "vUSDC",
       "decimals": 18,
       "logoURI": "https://raw.githubusercontent.com/vesperfi/metadata/master/src/logos/vusdc.svg",
-      "type": "grow"
+      "type": "grow",
+      "collateral": {
+        "address": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+        "decimals": 6,
+        "symbol": "USDC",
+        "type": "normal"
+      }
     },
     {
       "name": "vLINK",
@@ -637,7 +873,13 @@
       "symbol": "vLINK",
       "decimals": 18,
       "logoURI": "https://raw.githubusercontent.com/vesperfi/metadata/master/src/logos/vlink.svg",
-      "type": "grow"
+      "type": "grow",
+      "collateral": {
+        "address": "0x514910771AF9Ca656af840dff83E8264EcF986CA",
+        "decimals": 18,
+        "symbol": "LINK",
+        "type": "normal"
+      }
     },
     {
       "name": "vVSP",
@@ -652,7 +894,13 @@
       "symbol": "vVSP",
       "decimals": 18,
       "logoURI": "https://raw.githubusercontent.com/vesperfi/metadata/master/src/logos/vvsp.svg",
-      "type": "governance"
+      "type": "governance",
+      "collateral": {
+        "address": "0x1b40183EFB4Dd766f11bDa7A7c3AD8982e998421",
+        "decimals": 18,
+        "symbol": "VSP",
+        "type": "normal"
+      }
     },
     {
       "name": "vBetaWBTC",
@@ -666,7 +914,13 @@
       "symbol": "vBetaWBTC",
       "decimals": 18,
       "logoURI": "https://raw.githubusercontent.com/vesperfi/metadata/master/src/logos/vwbtc.svg",
-      "type": "grow"
+      "type": "grow",
+      "collateral": {
+        "address": "0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599",
+        "decimals": 8,
+        "symbol": "WBTC",
+        "type": "normal"
+      }
     },
     {
       "name": "vBetaUSDC",
@@ -680,7 +934,13 @@
       "symbol": "vBetaUSDC",
       "decimals": 18,
       "logoURI": "https://raw.githubusercontent.com/vesperfi/metadata/master/src/logos/vusdc.svg",
-      "type": "grow"
+      "type": "grow",
+      "collateral": {
+        "address": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+        "decimals": 6,
+        "symbol": "USDC",
+        "type": "normal"
+      }
     },
     {
       "name": "vDAI",
@@ -695,7 +955,13 @@
       "symbol": "vDAI",
       "decimals": 18,
       "logoURI": "https://raw.githubusercontent.com/vesperfi/metadata/master/src/logos/vdai.svg",
-      "type": "grow"
+      "type": "grow",
+      "collateral": {
+        "address": "0x6B175474E89094C44Da98b954EedeAC495271d0F",
+        "decimals": 18,
+        "symbol": "DAI",
+        "type": "normal"
+      }
     },
     {
       "name": "vBetaETH",
@@ -709,7 +975,13 @@
       "symbol": "vBetaETH",
       "decimals": 18,
       "logoURI": "https://raw.githubusercontent.com/vesperfi/metadata/master/src/logos/veth.svg",
-      "type": "grow"
+      "type": "grow",
+      "collateral": {
+        "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+        "decimals": 18,
+        "symbol": "WETH",
+        "type": "normal"
+      }
     },
     {
       "name": "vUSDC",
@@ -723,7 +995,13 @@
       "symbol": "vUSDC",
       "decimals": 18,
       "logoURI": "https://raw.githubusercontent.com/vesperfi/metadata/master/src/logos/vusdc.svg",
-      "type": "grow"
+      "type": "grow",
+      "collateral": {
+        "address": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+        "decimals": 6,
+        "symbol": "USDC",
+        "type": "normal"
+      }
     },
     {
       "name": "vWBTC",
@@ -737,7 +1015,13 @@
       "symbol": "vWBTC",
       "decimals": 18,
       "logoURI": "https://raw.githubusercontent.com/vesperfi/metadata/master/src/logos/vwbtc.svg",
-      "type": "grow"
+      "type": "grow",
+      "collateral": {
+        "address": "0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599",
+        "decimals": 8,
+        "symbol": "WBTC",
+        "type": "normal"
+      }
     },
     {
       "name": "vETH",
@@ -751,7 +1035,13 @@
       "symbol": "vETH",
       "decimals": 18,
       "logoURI": "https://raw.githubusercontent.com/vesperfi/metadata/master/src/logos/veth.svg",
-      "type": "grow"
+      "type": "grow",
+      "collateral": {
+        "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+        "decimals": 18,
+        "symbol": "ETH",
+        "type": "normal"
+      }
     },
     {
       "name": "vWBTC",
@@ -766,7 +1056,13 @@
       "symbol": "vWBTC",
       "decimals": 18,
       "logoURI": "https://raw.githubusercontent.com/vesperfi/metadata/master/src/logos/vwbtc.svg",
-      "type": "grow"
+      "type": "grow",
+      "collateral": {
+        "address": "0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599",
+        "decimals": 8,
+        "symbol": "WBTC",
+        "type": "normal"
+      }
     },
     {
       "name": "vUSDC",
@@ -781,7 +1077,13 @@
       "symbol": "vUSDC",
       "decimals": 18,
       "logoURI": "https://raw.githubusercontent.com/vesperfi/metadata/master/src/logos/vusdc.svg",
-      "type": "grow"
+      "type": "grow",
+      "collateral": {
+        "address": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+        "decimals": 6,
+        "symbol": "USDC",
+        "type": "normal"
+      }
     },
     {
       "name": "vBTC",
@@ -795,7 +1097,13 @@
       "symbol": "vBTC",
       "decimals": 18,
       "logoURI": "https://raw.githubusercontent.com/vesperfi/metadata/master/src/logos/vwbtc.svg",
-      "type": "grow"
+      "type": "grow",
+      "collateral": {
+        "address": "0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599",
+        "decimals": 8,
+        "symbol": "WBTC",
+        "type": "normal"
+      }
     },
     {
       "name": "vETH",
@@ -810,7 +1118,13 @@
       "symbol": "vETH",
       "decimals": 18,
       "logoURI": "https://raw.githubusercontent.com/vesperfi/metadata/master/src/logos/veth.svg",
-      "type": "grow"
+      "type": "grow",
+      "collateral": {
+        "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+        "decimals": 18,
+        "symbol": "ETH",
+        "type": "normal"
+      }
     },
     {
       "name": "vaBUSD",
@@ -825,7 +1139,13 @@
       "symbol": "vaBUSD",
       "decimals": 18,
       "logoURI": "https://raw.githubusercontent.com/vesperfi/metadata/master/src/logos/vabusd.svg",
-      "type": "grow"
+      "type": "grow",
+      "collateral": {
+        "address": "0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56",
+        "decimals": 18,
+        "symbol": "BUSD",
+        "type": "normal"
+      }
     },
     {
       "name": "vaBNB",
@@ -840,7 +1160,13 @@
       "symbol": "vaBNB",
       "decimals": 18,
       "logoURI": "https://raw.githubusercontent.com/vesperfi/metadata/master/src/logos/vabnb.svg",
-      "type": "grow"
+      "type": "grow",
+      "collateral": {
+        "address": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+        "decimals": 18,
+        "symbol": "BNB",
+        "type": "normal"
+      }
     },
     {
       "name": "veDAI-WBTC",
@@ -855,7 +1181,13 @@
       "symbol": "veDAI-WBTC",
       "decimals": 18,
       "logoURI": "https://raw.githubusercontent.com/vesperfi/metadata/master/src/logos/vedai-wbtc.svg",
-      "type": "earn"
+      "type": "earn",
+      "collateral": {
+        "address": "0x8f3Cf7ad23Cd3CaDbD9735AFf958023239c6A063",
+        "decimals": 18,
+        "symbol": "DAI",
+        "type": "normal"
+      }
     },
     {
       "name": "veDAI-WETH",
@@ -870,7 +1202,13 @@
       "symbol": "veDAI-WETH",
       "decimals": 18,
       "logoURI": "https://raw.githubusercontent.com/vesperfi/metadata/master/src/logos/vedai-weth.svg",
-      "type": "earn"
+      "type": "earn",
+      "collateral": {
+        "address": "0x8f3Cf7ad23Cd3CaDbD9735AFf958023239c6A063",
+        "decimals": 18,
+        "symbol": "DAI",
+        "type": "normal"
+      }
     },
     {
       "name": "vMATIC",
@@ -885,7 +1223,13 @@
       "symbol": "vMATIC",
       "decimals": 18,
       "logoURI": "https://raw.githubusercontent.com/vesperfi/metadata/master/src/logos/vmatic.svg",
-      "type": "grow"
+      "type": "grow",
+      "collateral": {
+        "address": "0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270",
+        "decimals": 18,
+        "symbol": "MATIC",
+        "type": "normal"
+      }
     },
     {
       "name": "vWBTC",
@@ -900,7 +1244,13 @@
       "symbol": "vWBTC",
       "decimals": 18,
       "logoURI": "https://raw.githubusercontent.com/vesperfi/metadata/master/src/logos/vwbtc.svg",
-      "type": "grow"
+      "type": "grow",
+      "collateral": {
+        "address": "0x1BFD67037B42Cf73acF2047067bd4F2C47D9BfD6",
+        "decimals": 8,
+        "symbol": "WBTC",
+        "type": "normal"
+      }
     },
     {
       "name": "vWETH",
@@ -915,7 +1265,13 @@
       "symbol": "vWETH",
       "decimals": 18,
       "logoURI": "https://raw.githubusercontent.com/vesperfi/metadata/master/src/logos/vweth.svg",
-      "type": "grow"
+      "type": "grow",
+      "collateral": {
+        "address": "0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619",
+        "decimals": 18,
+        "symbol": "WETH",
+        "type": "normal"
+      }
     },
     {
       "name": "vUSDT",
@@ -930,7 +1286,13 @@
       "symbol": "vUSDT",
       "decimals": 18,
       "logoURI": "https://raw.githubusercontent.com/vesperfi/metadata/master/src/logos/vusdt.svg",
-      "type": "grow"
+      "type": "grow",
+      "collateral": {
+        "address": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
+        "decimals": 6,
+        "symbol": "USDT",
+        "type": "normal"
+      }
     },
     {
       "name": "vDAI",
@@ -945,7 +1307,13 @@
       "symbol": "vDAI",
       "decimals": 18,
       "logoURI": "https://raw.githubusercontent.com/vesperfi/metadata/master/src/logos/vdai.svg",
-      "type": "grow"
+      "type": "grow",
+      "collateral": {
+        "address": "0x8f3Cf7ad23Cd3CaDbD9735AFf958023239c6A063",
+        "decimals": 18,
+        "symbol": "DAI",
+        "type": "normal"
+      }
     },
     {
       "name": "vUSDC",
@@ -960,7 +1328,13 @@
       "symbol": "vUSDC",
       "decimals": 18,
       "logoURI": "https://raw.githubusercontent.com/vesperfi/metadata/master/src/logos/vusdc.svg",
-      "type": "grow"
+      "type": "grow",
+      "collateral": {
+        "address": "0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174",
+        "decimals": 6,
+        "symbol": "USDC",
+        "type": "normal"
+      }
     },
     {
       "name": "vaUSDC",
@@ -975,7 +1349,13 @@
       "symbol": "vaUSDC",
       "decimals": 18,
       "logoURI": "https://raw.githubusercontent.com/vesperfi/metadata/master/src/logos/vausdc.svg",
-      "type": "grow"
+      "type": "grow",
+      "collateral": {
+        "address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "decimals": 6,
+        "symbol": "USDC",
+        "type": "normal"
+      }
     },
     {
       "name": "vaQI",
@@ -990,7 +1370,13 @@
       "symbol": "vaQI",
       "decimals": 18,
       "logoURI": "https://raw.githubusercontent.com/vesperfi/metadata/master/src/logos/vaqi.svg",
-      "type": "grow"
+      "type": "grow",
+      "collateral": {
+        "address": "0x8729438EB15e2C8B576fCc6AeCdA6A148776C0F5",
+        "decimals": 18,
+        "symbol": "QI",
+        "type": "normal"
+      }
     },
     {
       "name": "vaAVAX",
@@ -1005,7 +1391,13 @@
       "symbol": "vaAVAX",
       "decimals": 18,
       "logoURI": "https://raw.githubusercontent.com/vesperfi/metadata/master/src/logos/vaavax.svg",
-      "type": "grow"
+      "type": "grow",
+      "collateral": {
+        "address": "0xB31f66AA3C1e785363F0875A1B74E27b85FD66c7",
+        "decimals": 18,
+        "symbol": "AVAX",
+        "type": "normal"
+      }
     },
     {
       "name": "vaUSDC.e",
@@ -1020,7 +1412,13 @@
       "symbol": "vaUSDC.e",
       "decimals": 18,
       "logoURI": "https://raw.githubusercontent.com/vesperfi/metadata/master/src/logos/vausdc.svg",
-      "type": "grow"
+      "type": "grow",
+      "collateral": {
+        "address": "0xA7D7079b0FEaD91F3e65f86E8915Cb59c1a4C664",
+        "decimals": 6,
+        "symbol": "USDC.e",
+        "type": "normal"
+      }
     },
     {
       "name": "vaWBTC.e",
@@ -1035,7 +1433,13 @@
       "symbol": "vaWBTC.e",
       "decimals": 18,
       "logoURI": "https://raw.githubusercontent.com/vesperfi/metadata/master/src/logos/vawbtc.svg",
-      "type": "grow"
+      "type": "grow",
+      "collateral": {
+        "address": "0x50b7545627a5162F82A992c33b87aDc75187B218",
+        "decimals": 8,
+        "symbol": "WBTC.e",
+        "type": "normal"
+      }
     },
     {
       "name": "vaAVAX",
@@ -1050,7 +1454,13 @@
       "symbol": "vaAVAX",
       "decimals": 18,
       "logoURI": "https://raw.githubusercontent.com/vesperfi/metadata/master/src/logos/vaavax.svg",
-      "type": "grow"
+      "type": "grow",
+      "collateral": {
+        "address": "0xB31f66AA3C1e785363F0875A1B74E27b85FD66c7",
+        "decimals": 18,
+        "symbol": "AVAX",
+        "type": "normal"
+      }
     },
     {
       "name": "vaWETH.e",
@@ -1065,7 +1475,13 @@
       "symbol": "vaWETH.e",
       "decimals": 18,
       "logoURI": "https://raw.githubusercontent.com/vesperfi/metadata/master/src/logos/vaweth.svg",
-      "type": "grow"
+      "type": "grow",
+      "collateral": {
+        "address": "0x49D5c2BdFfac6CE2BFdB6640F4F80f226bc10bAB",
+        "decimals": 18,
+        "symbol": "WETH.e",
+        "type": "normal"
+      }
     },
     {
       "name": "vaDAI.e",
@@ -1080,7 +1496,13 @@
       "symbol": "vaDAI.e",
       "decimals": 18,
       "logoURI": "https://raw.githubusercontent.com/vesperfi/metadata/master/src/logos/vadai.svg",
-      "type": "grow"
+      "type": "grow",
+      "collateral": {
+        "address": "0xd586E7F844cEa2F87f50152665BCbc2C279D8d70",
+        "decimals": 18,
+        "symbol": "DAI.e",
+        "type": "normal"
+      }
     }
   ],
   "tokens": [
