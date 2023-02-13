@@ -15,29 +15,46 @@ const metadata = require('../src/vesper-metadata.json')
 
 const poolAbi = require('./pool-abi.json')
 
+const supportedChains = [
+  {
+    name: 'Ethereum',
+    chainId: '1',
+    wrappedTokenSymbol: 'WETH',
+    nodeUrl: process.env.ETH_NODE_URL,
+    explorerUrl: 'https://api.etherscan.io/api'
+  },
+  {
+    name: 'Polygon',
+    chainId: '137',
+    wrappedTokenSymbol: 'WMATIC',
+    nodeUrl: process.env.POLYGON_NODE_URL,
+    explorerUrl: 'https://api.polygonscan.com/api'
+  },
+  {
+    name: 'Avalanche',
+    chainId: '43114',
+    wrappedTokenSymbol: 'WAVAX',
+    nodeUrl: process.env.AVALANCHE_NODE_URL,
+    explorerUrl: 'https://api.snowtrace.io/api'
+  },
+  {
+    name: 'BNB',
+    chainId: '56',
+    wrappedTokenSymbol: 'WBNB',
+    nodeUrl: process.env.BNB_NODE_URL,
+    explorerUrl: 'https://api.bscscan.com/api'
+  }
+]
+
 const generalQuestions = [
   {
     type: 'rawlist',
     name: 'chainId',
     message: 'Select pool chain',
-    choices: [
-      {
-        name: 'Ethereum',
-        value: '1'
-      },
-      {
-        name: 'Polygon',
-        value: '137'
-      },
-      {
-        name: 'Avalanche',
-        value: '43114'
-      },
-      {
-        name: 'BNB',
-        value: '56'
-      }
-    ]
+    choices: supportedChains.map(({ name, chainId: value }) => ({
+      name,
+      value
+    }))
   },
   {
     name: 'address',
@@ -85,35 +102,9 @@ inquirer
     collateralType,
     defiLlamaPoolId = null
   }) {
-    function getNodeUrl() {
-      switch (chainId) {
-        case '1':
-          return process.env.ETH_NODE_URL
-        case '137':
-          return process.env.POLYGON_NODE_URL
-        case '43114':
-          return process.env.AVALANCHE_NODE_URL
-        case '56':
-          return process.env.BNB_NODE_URL
-        default:
-          throw new Error(`Missing node URL for chain ${chainId}`)
-      }
-    }
-
-    function getExplorerUrl() {
-      switch (chainId) {
-        case '1':
-          return 'https://api.etherscan.io/api'
-        case '137':
-          return 'https://api.polygonscan.com/api'
-        case '43114':
-          return 'https://api.snowtrace.io/api'
-        case '56':
-          return 'https://api.bscscan.com/api'
-        default:
-          throw new Error(`Missing explorer URL for chain ${chainId}`)
-      }
-    }
+    const { nodeUrl, explorerUrl } = supportedChains.find(
+      c => c.chainId === chainId
+    )
 
     function getStartBlock() {
       return chainId === '43114' ? '9450000' : '11400000'
@@ -140,7 +131,7 @@ inquirer
         offset: '1',
         sort: 'asc'
       }).toString()
-      return fetch(`${getExplorerUrl()}?${search}`)
+      return fetch(`${explorerUrl}?${search}`)
         .then(function (res) {
           if (!res.ok) {
             throw new Error(`Response error ${res.status}: ${res.statusText}`)
@@ -164,6 +155,12 @@ inquirer
       return unwrapped(asset) || asset
     }
 
+    function isWrappedToken(asset) {
+      return supportedChains.some(
+        ({ wrappedTokenSymbol }) => asset === wrappedTokenSymbol
+      )
+    }
+
     function unwrapped(asset) {
       return {
         'WAVAX:43114': 'AVAX',
@@ -185,7 +182,7 @@ inquirer
     }
 
     // @ts-ignore ts(2351)
-    const web3 = new Web3(getNodeUrl(chainId))
+    const web3 = new Web3(nodeUrl)
     const contract = new web3.eth.Contract(poolAbi, address)
 
     Promise.all([
@@ -235,6 +232,10 @@ inquirer
             symbol: asset,
             type: collateralType
           }
+        }
+
+        if (isWrappedToken(asset)) {
+          pool.collateral.isWrappedToken = true
         }
 
         if (defiLlamaPoolId) {
