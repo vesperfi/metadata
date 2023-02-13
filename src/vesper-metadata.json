@@ -134,8 +134,9 @@
       "collateral": {
         "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
         "decimals": 18,
-        "symbol": "ETH",
-        "type": "normal"
+        "symbol": "WETH",
+        "type": "normal",
+        "isWrappedToken": true
       }
     },
     {
@@ -646,8 +647,9 @@
       "collateral": {
         "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
         "decimals": 18,
-        "symbol": "ETH",
-        "type": "normal"
+        "symbol": "WETH",
+        "type": "normal",
+        "isWrappedToken": true
       }
     },
     {
@@ -688,8 +690,9 @@
       "collateral": {
         "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
         "decimals": 18,
-        "symbol": "ETH",
-        "type": "normal"
+        "symbol": "WETH",
+        "type": "normal",
+        "isWrappedToken": true
       }
     },
     {
@@ -980,7 +983,8 @@
         "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
         "decimals": 18,
         "symbol": "WETH",
-        "type": "normal"
+        "type": "normal",
+        "isWrappedToken": true
       }
     },
     {
@@ -1039,8 +1043,9 @@
       "collateral": {
         "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
         "decimals": 18,
-        "symbol": "ETH",
-        "type": "normal"
+        "symbol": "WETH",
+        "type": "normal",
+        "isWrappedToken": true
       }
     },
     {
@@ -1122,8 +1127,9 @@
       "collateral": {
         "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
         "decimals": 18,
-        "symbol": "ETH",
-        "type": "normal"
+        "symbol": "WETH",
+        "type": "normal",
+        "isWrappedToken": true
       }
     },
     {
@@ -1164,8 +1170,9 @@
       "collateral": {
         "address": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
         "decimals": 18,
-        "symbol": "BNB",
-        "type": "normal"
+        "symbol": "WBNB",
+        "type": "normal",
+        "isWrappedToken": true
       }
     },
     {
@@ -1227,8 +1234,9 @@
       "collateral": {
         "address": "0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270",
         "decimals": 18,
-        "symbol": "MATIC",
-        "type": "normal"
+        "symbol": "WMATIC",
+        "type": "normal",
+        "isWrappedToken": true
       }
     },
     {
@@ -1395,8 +1403,9 @@
       "collateral": {
         "address": "0xB31f66AA3C1e785363F0875A1B74E27b85FD66c7",
         "decimals": 18,
-        "symbol": "AVAX",
-        "type": "normal"
+        "symbol": "WAVAX",
+        "type": "normal",
+        "isWrappedToken": true
       }
     },
     {
@@ -1458,8 +1467,9 @@
       "collateral": {
         "address": "0xB31f66AA3C1e785363F0875A1B74E27b85FD66c7",
         "decimals": 18,
-        "symbol": "AVAX",
-        "type": "normal"
+        "symbol": "WAVAX",
+        "type": "normal",
+        "isWrappedToken": true
       }
     },
     {
