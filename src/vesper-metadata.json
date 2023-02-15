@@ -32,6 +32,28 @@
   ],
   "pools": [
     {
+      "name": "vaCBETH",
+      "poolName": "vaCBETH Pool",
+      "address": "0x650CD45DEdb19c33160Acc522aD1a82D9701036a",
+      "asset": "cbETH",
+      "birthblock": 16633796,
+      "chainId": 1,
+      "riskLevel": 4,
+      "stage": "alpha",
+      "version": 5,
+      "symbol": "vaCBETH",
+      "decimals": 18,
+      "logoURI": "https://raw.githubusercontent.com/vesperfi/metadata/master/src/logos/vacbeth.svg",
+      "type": "grow",
+      "collateral": {
+        "address": "0xBe9895146f7AF43049ca1c1AE358B0541Ea49704",
+        "decimals": 18,
+        "symbol": "cbETH",
+        "type": "compounding",
+        "defiLlamaPoolId": "0f45d730-b279-4629-8e11-ccb5cc3038b4"
+      }
+    },
+    {
       "name": "vaRETH",
       "poolName": "vaRETH Pool",
       "address": "0xDD9F61a85fFE73E41eF889817972f0B0AaE6D6Dd",
