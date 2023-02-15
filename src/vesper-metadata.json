@@ -234,6 +234,7 @@
       "chainId": 1,
       "riskLevel": 4,
       "stage": "orbit",
+      "isRetiring": true,
       "version": 5,
       "symbol": "vaAPE",
       "decimals": 18,
