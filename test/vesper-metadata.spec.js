@@ -31,6 +31,11 @@ const chains = {
     nativeAsset: 'BNB',
     nodeUrl: process.env.BNB_NODE_URL,
     wrappedNativeAsset: 'WBNB'
+  },
+  10: {
+    nativeAsset: 'ETH',
+    nodeUrl: process.env.OPTIMISM_NODE_URL,
+    wrappedNativeAsset: 'WETH'
   }
 }
 

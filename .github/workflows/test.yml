@@ -27,3 +27,4 @@ jobs:
           ETH_NODE_URL: ${{ secrets.ETH_NODE_URL }}
           POLYGON_NODE_URL: ${{ secrets.POLYGON_NODE_URL }}
           BNB_NODE_URL: ${{ secrets.BNB_NODE_URL }}
+          OPTIMISM_NODE_URL: ${{ secrets.OPTIMISM_NODE_URL }}
