@@ -1156,6 +1156,28 @@
       }
     },
     {
+      "name": "vaETH",
+      "poolName": "vaETH Pool",
+      "address": "0xCcF3d1AcF799bAe67F6e354d685295557cf64761",
+      "asset": "ETH",
+      "birthblock": 75560596,
+      "chainId": 10,
+      "riskLevel": 4,
+      "stage": "alpha",
+      "version": 5,
+      "symbol": "vaETH",
+      "decimals": 18,
+      "logoURI": "https://raw.githubusercontent.com/vesperfi/metadata/master/src/logos/vaeth.svg",
+      "type": "grow",
+      "collateral": {
+        "address": "0x4200000000000000000000000000000000000006",
+        "decimals": 18,
+        "symbol": "WETH",
+        "type": "normal",
+        "isWrappedToken": true
+      }
+    },
+    {
       "name": "vaBUSD",
       "poolName": "vaBUSD Pool",
       "address": "0xa77f218cf8B28BddB2039eC1Cd2986548aecE76b",
