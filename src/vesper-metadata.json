@@ -1156,6 +1156,27 @@
       }
     },
     {
+      "name": "vaUSDC",
+      "poolName": "vaUSDC Pool",
+      "address": "0x539505Dde2B9771dEBE0898a84441c5E7fDF6BC0",
+      "asset": "USDC",
+      "birthblock": 75786499,
+      "chainId": 10,
+      "riskLevel": 4,
+      "stage": "alpha",
+      "version": 5,
+      "symbol": "vaUSDC",
+      "decimals": 18,
+      "logoURI": "https://raw.githubusercontent.com/vesperfi/metadata/master/src/logos/vausdc.svg",
+      "type": "grow",
+      "collateral": {
+        "address": "0x7F5c764cBc14f9669B88837ca1490cCa17c31607",
+        "decimals": 6,
+        "symbol": "USDC",
+        "type": "normal"
+      }
+    },
+    {
       "name": "vaETH",
       "poolName": "vaETH Pool",
       "address": "0xCcF3d1AcF799bAe67F6e354d685295557cf64761",
