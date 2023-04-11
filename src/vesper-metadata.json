@@ -1156,6 +1156,27 @@
       }
     },
     {
+      "name": "vaOP",
+      "poolName": "vaOP Pool",
+      "address": "0x19382707d5a47E74f60053b652Ab34b6e30Febad",
+      "asset": "OP",
+      "birthblock": 88760761,
+      "chainId": 10,
+      "riskLevel": 4,
+      "stage": "alpha",
+      "version": 5,
+      "symbol": "vaOP",
+      "decimals": 18,
+      "logoURI": "https://raw.githubusercontent.com/vesperfi/metadata/master/src/logos/vaop.svg",
+      "type": "grow",
+      "collateral": {
+        "address": "0x4200000000000000000000000000000000000042",
+        "decimals": 18,
+        "symbol": "OP",
+        "type": "normal"
+      }
+    },
+    {
       "name": "vaUSDC",
       "poolName": "vaUSDC Pool",
       "address": "0x539505Dde2B9771dEBE0898a84441c5E7fDF6BC0",
