@@ -1163,7 +1163,7 @@
       "birthblock": 88760761,
       "chainId": 10,
       "riskLevel": 4,
-      "stage": "alpha",
+      "stage": "beta",
       "version": 5,
       "symbol": "vaOP",
       "decimals": 18,
