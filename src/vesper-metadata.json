@@ -1156,6 +1156,28 @@
       }
     },
     {
+      "name": "vawstETH",
+      "poolName": "vawstETH Pool",
+      "address": "0xdd63ae655b388Cd782681b7821Be37fdB6d0E78d",
+      "asset": "wstETH",
+      "birthblock": 89558178,
+      "chainId": 10,
+      "riskLevel": 4,
+      "stage": "alpha",
+      "version": 5,
+      "symbol": "vawstETH",
+      "decimals": 18,
+      "logoURI": "https://raw.githubusercontent.com/vesperfi/metadata/master/src/logos/vawsteth.svg",
+      "type": "grow",
+      "collateral": {
+        "address": "0x1F32b1c2345538c0c6f582fCB022739c4A194Ebb",
+        "decimals": 18,
+        "symbol": "wstETH",
+        "type": "compounding",
+        "defiLlamaPoolId": "747c1d2a-c668-4682-b9f9-296708a3dd90"
+      }
+    },
+    {
       "name": "vaOP",
       "poolName": "vaOP Pool",
       "address": "0x19382707d5a47E74f60053b652Ab34b6e30Febad",

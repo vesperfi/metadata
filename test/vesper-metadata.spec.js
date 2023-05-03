@@ -165,7 +165,8 @@ describe('Metadata', function () {
             '0x2C361913e2dA663e1898162Ec01497C46eb87AbF', // vBetaETH
             '0x74Cc5BC20B0c396dF5680eE4aeB6169A6288a8aF', // vBetaWBTC
             '0x8b3C8626cbfaA71d44bd76C1304214f4858E3639', // vDAI aggressive
-            '0xd773cA264b5363F25F7f96319076753849Af168B' // vBTC
+            '0xd773cA264b5363F25F7f96319076753849Af168B', // vBTC
+            '0xdd63ae655b388Cd782681b7821Be37fdB6d0E78d' // vawstETH
           ].includes(pool.address)
         ) {
           this.skip()
