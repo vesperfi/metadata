@@ -1163,7 +1163,7 @@
       "birthblock": 89558178,
       "chainId": 10,
       "riskLevel": 4,
-      "stage": "beta",
+      "stage": "prod",
       "version": 5,
       "symbol": "vawstETH",
       "decimals": 18,
