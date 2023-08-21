@@ -21,13 +21,13 @@
   "lockedVSP": [
     {
       "chainId": 1,
-      "address": "0xBbc50daFd976d4Bd7854a8329646FB88d7fA1018"
+      "address": "0xD02d6eC21851092A9cca8a8eb388fdF66bA96F9B"
     }
   ],
   "lockedVSP721": [
     {
       "chainId": 1,
-      "address": "0x9b62D5e13250D41cC00b61c6006d413Ce5f48428"
+      "address": "0x6aFf1846413Bf15a8D7E72C799b96Bf37E424b13"
     }
   ],
   "pools": [
