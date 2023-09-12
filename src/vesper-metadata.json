@@ -1,6 +1,6 @@
 {
   "name": "Vesper metadata",
-  "version": "2.103.0",
+  "version": "2.104.0",
   "controllers": [
     {
       "name": "collateralManager",
@@ -1237,49 +1237,6 @@
         "address": "0x4200000000000000000000000000000000000006",
         "decimals": 18,
         "symbol": "WETH",
-        "type": "normal",
-        "isWrappedToken": true
-      }
-    },
-    {
-      "name": "vaBUSD",
-      "poolName": "vaBUSD Pool",
-      "address": "0xa77f218cf8B28BddB2039eC1Cd2986548aecE76b",
-      "asset": "BUSD",
-      "birthblock": 22539555,
-      "chainId": 56,
-      "riskLevel": 4,
-      "stage": "retired",
-      "version": 5,
-      "symbol": "vaBUSD",
-      "decimals": 18,
-      "logoURI": "https://raw.githubusercontent.com/vesperfi/metadata/master/src/logos/vabusd.svg",
-      "type": "grow",
-      "collateral": {
-        "address": "0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56",
-        "decimals": 18,
-        "symbol": "BUSD",
-        "type": "normal"
-      }
-    },
-    {
-      "name": "vaBNB",
-      "poolName": "vaBNB Pool",
-      "address": "0xdAa2a8AF96f8Df51ED989E9D1fd3F86DF1EE882e",
-      "asset": "BNB",
-      "birthblock": 22517016,
-      "chainId": 56,
-      "riskLevel": 4,
-      "stage": "beta",
-      "version": 5,
-      "symbol": "vaBNB",
-      "decimals": 18,
-      "logoURI": "https://raw.githubusercontent.com/vesperfi/metadata/master/src/logos/vabnb.svg",
-      "type": "grow",
-      "collateral": {
-        "address": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
-        "decimals": 18,
-        "symbol": "WBNB",
         "type": "normal",
         "isWrappedToken": true
       }

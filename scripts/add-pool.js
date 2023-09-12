@@ -38,13 +38,6 @@ const supportedChains = [
     explorerUrl: 'https://api.snowtrace.io/api'
   },
   {
-    name: 'BNB',
-    chainId: '56',
-    wrappedTokenSymbol: 'WBNB',
-    nodeUrl: process.env.BNB_NODE_URL,
-    explorerUrl: 'https://api.bscscan.com/api'
-  },
-  {
     name: 'Optimism',
     chainId: '10',
     wrappedTokenSymbol: 'WETH',
@@ -171,7 +164,6 @@ inquirer
         'WAVAX:43114': 'AVAX',
         'WETH:1': 'ETH',
         'WMATIC:137': 'MATIC',
-        'WBNB:56': 'BNB',
         'WETH:10': 'ETH'
       }[`${asset}:${chainId}`]
     }
