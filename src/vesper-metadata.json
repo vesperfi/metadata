@@ -1,6 +1,6 @@
 {
   "name": "Vesper metadata",
-  "version": "2.105.0",
+  "version": "2.106.0",
   "controllers": [
     {
       "name": "collateralManager",
@@ -906,8 +906,7 @@
       "chainId": 1,
       "color": "#4138AC",
       "riskLevel": 3,
-      "stage": "prod",
-      "isRetiring": true,
+      "stage": "retired",
       "symbol": "vVSP",
       "decimals": 18,
       "logoURI": "https://raw.githubusercontent.com/vesperfi/metadata/master/src/logos/vvsp.svg",
