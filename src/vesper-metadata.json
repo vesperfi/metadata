@@ -1400,6 +1400,91 @@
       }
     },
     {
+      "name": "vawstETH",
+      "poolName": "vawstETH Pool",
+      "address": "0x46fb68Eb2b1Fc43654AbaE5691D39D18D933E4b4",
+      "asset": "wstETH",
+      "birthblock": 15456739,
+      "chainId": 8453,
+      "riskLevel": 4,
+      "stage": "prod",
+      "version": 5,
+      "symbol": "vawstETH",
+      "decimals": 18,
+      "logoURI": "https://raw.githubusercontent.com/vesperfi/metadata/master/src/logos/vawsteth.svg",
+      "type": "grow",
+      "collateral": {
+        "address": "0xc1CBa3fCea344f92D9239c08C0568f6F2F0ee452",
+        "decimals": 18,
+        "symbol": "wstETH",
+        "type": "normal"
+      }
+    },
+    {
+      "name": "vacbETH",
+      "poolName": "vacbETH Pool",
+      "address": "0x3899a6090c5C178dB8A1800DA39daD0D06EeEFBE",
+      "asset": "cbETH",
+      "birthblock": 15413209,
+      "chainId": 8453,
+      "riskLevel": 4,
+      "stage": "prod",
+      "version": 5,
+      "symbol": "vacbETH",
+      "decimals": 18,
+      "logoURI": "https://raw.githubusercontent.com/vesperfi/metadata/master/src/logos/vacbeth.svg",
+      "type": "grow",
+      "collateral": {
+        "address": "0x2Ae3F1Ec7F1F5012CFEab0185bfc7aa3cf0DEc22",
+        "decimals": 18,
+        "symbol": "cbETH",
+        "type": "normal"
+      }
+    },
+    {
+      "name": "vaETH",
+      "poolName": "vaETH Pool",
+      "address": "0x82562507429876486B60AF4F32390ef0947b3d13",
+      "asset": "ETH",
+      "birthblock": 15375447,
+      "chainId": 8453,
+      "riskLevel": 4,
+      "stage": "prod",
+      "version": 5,
+      "symbol": "vaETH",
+      "decimals": 18,
+      "logoURI": "https://raw.githubusercontent.com/vesperfi/metadata/master/src/logos/vaeth.svg",
+      "type": "grow",
+      "collateral": {
+        "address": "0x4200000000000000000000000000000000000006",
+        "decimals": 18,
+        "symbol": "WETH",
+        "type": "normal",
+        "isWrappedToken": true
+      }
+    },
+    {
+      "name": "vaUSDC",
+      "poolName": "vaUSDC Pool",
+      "address": "0x1e41238aCd3A9fF90b0DCB9ea96Cf45F104e09Ef",
+      "asset": "USDC",
+      "birthblock": 15153629,
+      "chainId": 8453,
+      "riskLevel": 4,
+      "stage": "prod",
+      "version": 5,
+      "symbol": "vaUSDC",
+      "decimals": 18,
+      "logoURI": "https://raw.githubusercontent.com/vesperfi/metadata/master/src/logos/vausdc.svg",
+      "type": "grow",
+      "collateral": {
+        "address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+        "decimals": 6,
+        "symbol": "USDC",
+        "type": "normal"
+      }
+    },
+    {
       "name": "vaUSDC",
       "poolName": "vaUSDC Pool",
       "address": "0x4378041dceF18713CE30E36A6b9c8aA41C0dB631",

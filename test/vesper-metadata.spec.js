@@ -31,6 +31,11 @@ const chains = {
     nativeAsset: 'ETH',
     nodeUrl: process.env.OPTIMISM_NODE_URL,
     wrappedNativeAsset: 'WETH'
+  },
+  8453: {
+    nativeAsset: 'ETH',
+    nodeUrl: process.env.BASE_NODE_URL,
+    wrappedNativeAsset: 'WETH'
   }
 }
 
@@ -161,7 +166,9 @@ describe('Metadata', function () {
             '0x74Cc5BC20B0c396dF5680eE4aeB6169A6288a8aF', // vBetaWBTC
             '0x8b3C8626cbfaA71d44bd76C1304214f4858E3639', // vDAI aggressive
             '0xd773cA264b5363F25F7f96319076753849Af168B', // vBTC
-            '0xdd63ae655b388Cd782681b7821Be37fdB6d0E78d' // vawstETH
+            '0xdd63ae655b388Cd782681b7821Be37fdB6d0E78d', // vawstETH
+            '0x46fb68Eb2b1Fc43654AbaE5691D39D18D933E4b4', // Base vawstETH
+            '0x3899a6090c5C178dB8A1800DA39daD0D06EeEFBE' // Base vacbETH
           ].includes(pool.address)
         ) {
           this.skip()

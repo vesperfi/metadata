@@ -43,6 +43,13 @@ const supportedChains = [
     wrappedTokenSymbol: 'WETH',
     nodeUrl: process.env.OPTIMISM_NODE_URL,
     explorerUrl: 'https://api-optimistic.etherscan.io/api'
+  },
+  {
+    name: 'Base',
+    chainId: '8453',
+    wrappedTokenSymbol: 'WETH',
+    nodeUrl: process.env.BASE_NODE_URL,
+    explorerUrl: 'https://api.basescan.org/api'
   }
 ]
 
@@ -164,7 +171,8 @@ inquirer
         'WAVAX:43114': 'AVAX',
         'WETH:1': 'ETH',
         'WMATIC:137': 'MATIC',
-        'WETH:10': 'ETH'
+        'WETH:10': 'ETH',
+        'WETH:8453': 'ETH'
       }[`${asset}:${chainId}`]
     }
 
