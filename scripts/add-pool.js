@@ -24,13 +24,6 @@ const supportedChains = [
     explorerUrl: 'https://api.etherscan.io/api'
   },
   {
-    name: 'Polygon',
-    chainId: '137',
-    wrappedTokenSymbol: 'WMATIC',
-    nodeUrl: process.env.POLYGON_NODE_URL,
-    explorerUrl: 'https://api.polygonscan.com/api'
-  },
-  {
     name: 'Avalanche',
     chainId: '43114',
     wrappedTokenSymbol: 'WAVAX',
@@ -170,7 +163,6 @@ inquirer
       return {
         'WAVAX:43114': 'AVAX',
         'WETH:1': 'ETH',
-        'WMATIC:137': 'MATIC',
         'WETH:10': 'ETH',
         'WETH:8453': 'ETH'
       }[`${asset}:${chainId}`]

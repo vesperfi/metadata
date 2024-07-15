@@ -17,11 +17,6 @@ const chains = {
     nodeUrl: process.env.ETH_NODE_URL,
     wrappedNativeAsset: 'WETH'
   },
-  137: {
-    nativeAsset: 'MATIC',
-    nodeUrl: process.env.POLYGON_NODE_URL,
-    wrappedNativeAsset: 'WMATIC'
-  },
   43114: {
     nativeAsset: 'AVAX',
     nodeUrl: process.env.AVALANCHE_NODE_URL,
@@ -174,11 +169,7 @@ describe('Metadata', function () {
           this.skip()
           return
         }
-        if (
-          pool.type === 'grow' &&
-          pool.riskLevel >= 4 &&
-          pool.chainId !== 137
-        ) {
+        if (pool.type === 'grow' && pool.riskLevel >= 4) {
           let splitedPoolAsset = pool.asset.split('.')
           splitedPoolAsset[0] = splitedPoolAsset[0].toUpperCase()
           pool.symbol.should.equal(`va${splitedPoolAsset.join('.')}`)
