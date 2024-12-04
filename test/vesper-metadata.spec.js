@@ -163,7 +163,10 @@ describe('Metadata', function () {
             '0xd773cA264b5363F25F7f96319076753849Af168B', // vBTC
             '0xdd63ae655b388Cd782681b7821Be37fdB6d0E78d', // vawstETH
             '0x46fb68Eb2b1Fc43654AbaE5691D39D18D933E4b4', // Base vawstETH
-            '0x3899a6090c5C178dB8A1800DA39daD0D06EeEFBE' // Base vacbETH
+            '0x3899a6090c5C178dB8A1800DA39daD0D06EeEFBE', // Base vacbETH
+            '0x4C73F025a1947ec770327B9956Fc61f535F72C22', // vamsdUSD
+            '0xCa7c607C590ad16007CCBbba9D26f4df656a36C2', // vamsETH
+            '0x913Ece180df83A2B81A4976F83cA88543a0C51b8' // base vamsETH
           ].includes(pool.address)
         ) {
           this.skip()

@@ -32,6 +32,48 @@
   ],
   "pools": [
     {
+      "name": "vamsUSD",
+      "poolName": "vamsUSD Pool",
+      "address": "0x4C73F025a1947ec770327B9956Fc61f535F72C22",
+      "asset": "msUSD",
+      "birthblock": 21185943,
+      "chainId": 1,
+      "riskLevel": 4,
+      "stage": "prod",
+      "version": 5,
+      "symbol": "vamsUSD",
+      "decimals": 18,
+      "logoURI": "https://raw.githubusercontent.com/vesperfi/metadata/master/src/logos/vamsusd.svg",
+      "type": "grow",
+      "collateral": {
+        "address": "0xab5eB14c09D416F0aC63661E57EDB7AEcDb9BEfA",
+        "decimals": 18,
+        "symbol": "msUSD",
+        "type": "normal"
+      }
+    },
+    {
+      "name": "vamsETH",
+      "poolName": "vamsETH Pool",
+      "address": "0xCa7c607C590ad16007CCBbba9D26f4df656a36C2",
+      "asset": "msETH",
+      "birthblock": 20889293,
+      "chainId": 1,
+      "riskLevel": 4,
+      "stage": "prod",
+      "version": 5,
+      "symbol": "vamsETH",
+      "decimals": 18,
+      "logoURI": "https://raw.githubusercontent.com/vesperfi/metadata/master/src/logos/vamseth.svg",
+      "type": "grow",
+      "collateral": {
+        "address": "0x64351fC9810aDAd17A690E4e1717Df5e7e085160",
+        "decimals": 18,
+        "symbol": "msETH",
+        "type": "normal"
+      }
+    },
+    {
       "name": "vaCBETH",
       "poolName": "vaCBETH Pool",
       "address": "0x650CD45DEdb19c33160Acc522aD1a82D9701036a",
@@ -1228,6 +1270,27 @@
         "symbol": "WETH",
         "type": "normal",
         "isWrappedToken": true
+      }
+    },
+    {
+      "name": "vamsETH",
+      "poolName": "vamsETH Pool",
+      "address": "0x913Ece180df83A2B81A4976F83cA88543a0C51b8",
+      "asset": "msETH",
+      "birthblock": 21702071,
+      "chainId": 8453,
+      "riskLevel": 4,
+      "stage": "prod",
+      "version": 5,
+      "symbol": "vamsETH",
+      "decimals": 18,
+      "logoURI": "https://raw.githubusercontent.com/vesperfi/metadata/master/src/logos/vamseth.svg",
+      "type": "grow",
+      "collateral": {
+        "address": "0x7Ba6F01772924a82D9626c126347A28299E98c98",
+        "decimals": 18,
+        "symbol": "msETH",
+        "type": "normal"
       }
     },
     {
