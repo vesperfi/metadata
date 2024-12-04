@@ -1,6 +1,6 @@
 {
   "name": "Vesper metadata",
-  "version": "2.111.0",
+  "version": "2.112.0",
   "controllers": [
     {
       "name": "collateralManager",
