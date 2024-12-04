@@ -21,7 +21,8 @@ const supportedChains = [
     chainId: '1',
     wrappedTokenSymbol: 'WETH',
     nodeUrl: process.env.ETH_NODE_URL,
-    explorerUrl: 'https://api.etherscan.io/api'
+    explorerUrl: 'https://api.etherscan.io/api',
+    explorerApiKey: process.env.ETH_EXPLORER_API_KEY
   },
   {
     name: 'Avalanche',
@@ -42,7 +43,8 @@ const supportedChains = [
     chainId: '8453',
     wrappedTokenSymbol: 'WETH',
     nodeUrl: process.env.BASE_NODE_URL,
-    explorerUrl: 'https://api.basescan.org/api'
+    explorerUrl: 'https://api.basescan.org/api',
+    explorerApiKey: process.env.BASE_EXPLORER_API_KEY
   }
 ]
 
@@ -102,9 +104,12 @@ inquirer
     collateralType,
     defiLlamaPoolId = null
   }) {
-    const { nodeUrl, explorerUrl, wrappedTokenSymbol } = supportedChains.find(
-      c => c.chainId === chainId
-    )
+    const {
+      nodeUrl,
+      explorerUrl,
+      wrappedTokenSymbol,
+      explorerApiKey = undefined
+    } = supportedChains.find(c => c.chainId === chainId)
 
     function getStartBlock() {
       return chainId === '43114' ? '9450000' : '11400000'
@@ -131,7 +136,11 @@ inquirer
         offset: '1',
         sort: 'asc'
       }).toString()
-      return fetch(`${explorerUrl}?${search}`)
+      return fetch(
+        `${explorerUrl}?${search}${
+          explorerApiKey ? `&apiKey=${explorerApiKey}` : ''
+        }`
+      )
         .then(function (res) {
           if (!res.ok) {
             throw new Error(`Response error ${res.status}: ${res.statusText}`)
